@@ -59,7 +59,7 @@ class MetadataExtractor:
 
         return documents
 
-    def extract_subject_and_concepts(self,pdf_path):
+    
         doc = fitz.open(pdf_path)
 
         subject_pattern = re.compile(

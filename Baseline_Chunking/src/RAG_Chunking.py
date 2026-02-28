@@ -44,30 +44,51 @@ class RAG_Chunking:
         
         hm : HumanMessage = None 
         
-        if context.strip() == '':
-            hm = HumanMessage(question)
-        else:
-            hm = HumanMessage("""
-                         Context:
-                        {context}
+        
+        hm = HumanMessage("""
+                        Context:
+                    {context}
 
-                        Question:
-                        {question}
-                         """)
+                    Question:
+                    {question}
+                        """)
             
         
         chat_prompt= ChatPromptTemplate.from_messages(
+            [
             self.sm,
             hm 
+            ]
         )
+        chat_prompt = ChatPromptTemplate.from_messages([
+            ("system", self.system_prompt ),
+            ("human", """
+                Context:
+                {context}
+
+                Question:
+                {question}
+            """)
+        ])
         
+        print(chat_prompt.format(
+            context=context,
+            question=question
+        ))
+        
+        response = None
         chain = chat_prompt | self.llm
-        response = chain.invoke(
-            {
-                "context": context,
+        try:
+            
+            response = chain.invoke({
+                "context" : context,
                 "question": question
-            }
-        )
+            })
+        except Exception as e :
+            response = None
+        
+        return response            
+        
         
         
 

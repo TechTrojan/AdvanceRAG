@@ -14,7 +14,7 @@ file_path = f"{cwd}\DataIngestion\Metadata_Filtering\grade5-teks-062024-0.pdf"
 
 docs = me.extract_content_with_subject_metadata(file_path)
 
-print(docs[5:50])
+print(docs[30:35])
 
 
 

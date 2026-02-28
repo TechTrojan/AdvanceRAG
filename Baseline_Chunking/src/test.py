@@ -2,16 +2,15 @@ from DataRetriever import DataRetriever
 from RAG_Chunking import RAG_Chunking
 from dotenv import load_dotenv
 import os 
+from RAGEvaluator import RAGEvaluator
+from LLMEvaluator import LLMEvaluator
+
 
 load_dotenv()
 
 path=r"C:\repo\TechTrojan\AdvanceRAG\Baseline_Chunking\data\faiss_index"
 
 dr = DataRetriever(path)
-
-# if dr.LoadDatabase():
-#     docs = dr.retriever.invoke('What was NVIDIA total revenue in 2024')
-#     print(docs)
 
 
     
@@ -22,18 +21,76 @@ system_prompt ="""
 """
 rc = RAG_Chunking('gpt-4o-mini', system_prompt)
 
-question = 'What was NVIDIA total revenue in 2024?'
+# if dr.LoadDatabase():
 
-context= ''
+#     question = 'What was NVIDIA total revenue in 2024?'
+
+#     context= dr.retrieve_context(question)
+#     ans = rc.generate_answer_with_context(question,context)
+
+#     print(ans.content)
+
+ 
+samples = [
+
+    {
+        "question": "What was NVIDIA total revenue in 2024?",
+        "ground_truth": "NVIDIA total revenue for fiscal year ended January 28, 2024 was $60,922 million.",
+        "relevant_doc_ids": ["nvidia_10k_doc"]
+    },
+
+    {
+        "question": "What risks does Microsoft describe regarding competition?",
+        "ground_truth": "Microsoft faces intense competition across all markets from diversified global companies, specialized firms, open source offerings, and rapidly evolving technologies. Failure to innovate or deliver appealing products could adversely affect its business and results of operations.",
+        "relevant_doc_ids": ["microsoft_10k_doc"]
+    },
+
+    {
+        "question": "What are the six pillars of the AWS Well-Architected Framework?",
+        "ground_truth": "The six pillars are Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability.",
+        "relevant_doc_ids": ["aws_well_architected_doc"]
+    },
+
+    {
+        "question": "What is the purpose of the Reliability pillar in AWS Well-Architected?",
+        "ground_truth": "The Reliability pillar focuses on designing systems that deliver stable and efficient performance by ensuring workloads can meet expectations and requirements even under changing conditions.",
+        "relevant_doc_ids": ["aws_well_architected_doc"]
+    },
+
+    {
+        "question": "How do NVIDIA and Microsoft describe their AI offerings?",
+        "ground_truth": "NVIDIA describes its AI solutions within its Compute & Networking segment, including data center accelerated computing and AI platforms. Microsoft describes Azure AI offerings as providing supercomputing power for AI at scale, complemented by cloud AI services, custom-built silicon, and developer platforms such as Azure AI Foundry.",
+        "relevant_doc_ids": ["nvidia_10k_doc", "microsoft_10k_doc"]
+    }
+
+]
+
+
+    
 
 if dr.LoadDatabase():
-    docs = dr.retriever.invoke(question)
-    context_list = [ d.page_content for d in docs ]
-    context = ". ".join(context_list)
+    for q in samples[:1]:
+        question = q["question"]
+        context = dr.retrieve_context(question)
+        ans = rc.generate_answer_with_context(question,context)
+        
+        print(ans.content)
+        
     
-    print(context)
-
-
-resp = rc.generate_answer_with_context(question, context )
-
-print(resp)
+        lEval = LLMEvaluator(rc.llm, dr.embeddings)
+        # ca_score = lEval.compute_context_adherence(question,context,ans.content)        
+        # print(ca_score)
+        
+        # cp_score = lEval.compute_context_precision(question, dr.docs)
+        # print(cp_score)
+        
+        ans_rel = lEval.compute_answer_relevance(question, ans.content)
+        print(ans_rel)
+        
+        
+        
+        
+        
+        
+    
+    

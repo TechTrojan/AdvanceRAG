@@ -42,24 +42,9 @@ class RAG_Chunking:
 
     def generate_answer_with_context(self,question:str, context:str='')->AIMessage:
         
-        hm : HumanMessage = None 
         
         
-        hm = HumanMessage("""
-                        Context:
-                    {context}
-
-                    Question:
-                    {question}
-                        """)
-            
         
-        chat_prompt= ChatPromptTemplate.from_messages(
-            [
-            self.sm,
-            hm 
-            ]
-        )
         chat_prompt = ChatPromptTemplate.from_messages([
             ("system", self.system_prompt ),
             ("human", """
@@ -71,10 +56,6 @@ class RAG_Chunking:
             """)
         ])
         
-        print(chat_prompt.format(
-            context=context,
-            question=question
-        ))
         
         response = None
         chain = chat_prompt | self.llm

@@ -1,6 +1,7 @@
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.vectorstores import VectorStoreRetriever
+from langchain_core.documents import Document
 
 class DataRetriever:
     emd_model : str  = "sentence-transformers/all-MiniLM-L6-v2"
@@ -9,10 +10,18 @@ class DataRetriever:
     vec_store : FAISS = None 
     filePath : str = None 
     retriever :VectorStoreRetriever = None 
+    docs:list[Document]= None 
     
     def __init__(self, index_filePath:str ):
         self.embeddings = HuggingFaceEmbeddings(model_name = self.emd_model)
         self.filePath = index_filePath
+    
+    def retrieve_context(self,question)->str:
+        self.docs = self.retriever.invoke(question)
+        context_list = [ d.page_content for d in self.docs ]
+        context = ". ".join(context_list)
+        return context
+    
         
     def LoadDatabase(self)-> bool : 
         try:

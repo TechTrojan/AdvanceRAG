@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os 
 from RAGEvaluator import RAGEvaluator
 from LLMEvaluator import LLMEvaluator
+import json 
 
 
 load_dotenv()
@@ -66,26 +67,62 @@ samples = [
 ]
 
 
+rag_scores=list()
+def save_list_to_file(data_list, filename):
+    """
+    Saves a Python list to a file in JSON format.
+    """
+    if not isinstance(data_list, list):
+        raise TypeError("data_list must be a list.")
+
+    try:
+        with open(filename, 'w', encoding='utf-8') as file:
+            json.dump(data_list, file, ensure_ascii=False, indent=4)
+        print(f"List saved successfully to '{filename}'.")
+    except (OSError, IOError) as e:
+        print(f"Error saving list to file: {e}")
+
     
 
 if dr.LoadDatabase():
-    for q in samples[:1]:
+    for q in samples:
         question = q["question"]
+        print(f'evaluating : {question}')
         context = dr.retrieve_context(question)
         ans = rc.generate_answer_with_context(question,context)
         
-        print(ans.content)
+        #print(ans.content)
         
     
         lEval = LLMEvaluator(rc.llm, dr.embeddings)
-        # ca_score = lEval.compute_context_adherence(question,context,ans.content)        
-        # print(ca_score)
+        ca_score = lEval.compute_context_adherence(question,context,ans.content)        
+        
         
         cp_score = lEval.compute_context_precision(question, dr.docs)
-        print(cp_score)
+        # print(cp_score)
         
-        # ans_rel = lEval.compute_answer_relevance(question, ans.content)
+        ans_rel = lEval.compute_answer_relevance(question, ans.content)
         # print(ans_rel)
+        
+        ground_score= lEval.compute_groundedness(context, ans.content)
+        
+        single_score= {
+            'question' : question,
+            'context' : context,
+            'answer' : ans.content,
+            'context_adherence': str(ca_score),
+            'context_precision': str(cp_score),
+            'answer_relevance': f"{ans_rel:.3f}",
+            'groundedness': ground_score
+        }
+        
+        rag_scores.append(single_score)
+        
+
+
+save_list_to_file(rag_scores,'regular_rag')
+
+
         
         
         

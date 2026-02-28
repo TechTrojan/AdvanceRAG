@@ -48,6 +48,36 @@ Only evaluate relevance of the document to the question.
 Output:
 strictly value between 0 to 1 
     """
+    groundedness_system_prompt="""
+    You are an expert AI evaluator.
+
+Your task is to evaluate GROUNDEDNESS.
+
+Definition:
+Groundedness measures whether every factual claim in the answer can be directly traced back to the provided context.
+
+Instructions:
+1. Extract factual claims from the Answer.
+2. For each claim, verify whether it is supported by the Context.
+3. Calculate the proportion of claims supported.
+
+Scoring:
+- All claims supported → 1.0
+- Some unsupported → proportion score
+- None supported → 0.0
+
+Do NOT use outside knowledge.
+Evaluate strictly based on the provided context.
+
+Return JSON only:
+    {{
+        "score": float_between_0_and_1,
+        "unsupported_claims": [],
+        "reason": "short explanation"
+    }}
+
+ 
+    """
     
     def __init__(self,llm,embedding):
         self._llm = llm 
@@ -96,7 +126,43 @@ strictly value between 0 to 1
 
         return relevant / len(retrieved_docs)
     
+    def compute_groundedness(self,  icontext, ianswer) -> str :
 
+        chat_prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system", self.groundedness_system_prompt 
+                ),
+                (
+                    "human", """
+                    
+                    Context:
+                    {context}
+
+                    Answer:
+                    {answer}
+                    """
+                )
+            ]
+        )
+
+        
+        result = None 
+        chain = chat_prompt | self._llm  
+        
+        try:
+            response = chain.invoke(
+            {
+                 "context" : icontext,                 
+                 "answer" : ianswer 
+            }
+        )
+            result = response.content
+        except Exception as e:
+            print(e )
+        
+        return result            
+            
     def compute_answer_relevance(self, question, answer):
 
         q_vec = self._embedding.embed_query(question)

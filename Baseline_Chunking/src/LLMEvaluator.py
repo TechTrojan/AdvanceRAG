@@ -103,7 +103,7 @@ Return JSON only:
             ]
         )
         
-        print(chat_prompt.input_variables)
+        
         
         for doc in retrieved_docs:
             response = None 

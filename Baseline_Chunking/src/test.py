@@ -22,50 +22,59 @@ system_prompt ="""
 """
 rc = RAG_Chunking('gpt-4o-mini', system_prompt)
 
-# if dr.LoadDatabase():
-
-#     question = 'What was NVIDIA total revenue in 2024?'
-
-#     context= dr.retrieve_context(question)
-#     ans = rc.generate_answer_with_context(question,context)
-
-#     print(ans.content)
 
  
-samples = [
 
-    {
-        "question": "What was NVIDIA total revenue in 2024?",
-        "ground_truth": "NVIDIA total revenue for fiscal year ended January 28, 2024 was $60,922 million.",
-        "relevant_doc_ids": ["nvidia_10k_doc"]
-    },
+questions = [
 
-    {
-        "question": "What risks does Microsoft describe regarding competition?",
-        "ground_truth": "Microsoft faces intense competition across all markets from diversified global companies, specialized firms, open source offerings, and rapidly evolving technologies. Failure to innovate or deliver appealing products could adversely affect its business and results of operations.",
-        "relevant_doc_ids": ["microsoft_10k_doc"]
-    },
+    # ---------- NVIDIA (Numeric / Financial) ----------
 
-    {
-        "question": "What are the six pillars of the AWS Well-Architected Framework?",
-        "ground_truth": "The six pillars are Operational Excellence, Security, Reliability, Performance Efficiency, Cost Optimization, and Sustainability.",
-        "relevant_doc_ids": ["aws_well_architected_doc"]
-    },
+    "What was NVIDIA total revenue for fiscal year 2024?",
+    "What was NVIDIA Data Center revenue in fiscal year 2024?",
+    "How much operating income did NVIDIA report in fiscal year 2024?",
+    "What percentage of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024?",
+    "What were NVIDIA total long-lived assets as of January 25, 2026?",
 
-    {
-        "question": "What is the purpose of the Reliability pillar in AWS Well-Architected?",
-        "ground_truth": "The Reliability pillar focuses on designing systems that deliver stable and efficient performance by ensuring workloads can meet expectations and requirements even under changing conditions.",
-        "relevant_doc_ids": ["aws_well_architected_doc"]
-    },
+    # ---------- NVIDIA (Segment / Lease / Financial Detail) ----------
 
-    {
-        "question": "How do NVIDIA and Microsoft describe their AI offerings?",
-        "ground_truth": "NVIDIA describes its AI solutions within its Compute & Networking segment, including data center accelerated computing and AI platforms. Microsoft describes Azure AI offerings as providing supercomputing power for AI at scale, complemented by cloud AI services, custom-built silicon, and developer platforms such as Azure AI Foundry.",
-        "relevant_doc_ids": ["nvidia_10k_doc", "microsoft_10k_doc"]
-    }
+    "What segments does NVIDIA report in its segment information?",
+    "What does NVIDIA include in its Compute & Networking segment?",
+    "How much depreciation expense did NVIDIA report in fiscal year 2024?",
+    "What are NVIDIA future operating lease obligations for fiscal year 2027?",
+    "How does NVIDIA define direct customers versus indirect customers?",
+
+    # ---------- Microsoft (Risk / Competition / Cloud) ----------
+
+    "What strategic and competitive risks does Microsoft disclose in its risk factors?",
+    "How does Microsoft describe competition in the technology sector?",
+    "What products are included in Microsoft Intelligent Cloud segment?",
+    "How is Azure revenue primarily generated?",
+    "What competitive advantages does Microsoft claim for Azure?",
+
+    # ---------- Microsoft (Product / AI / Services) ----------
+
+    "What services are included in Microsoft Enterprise and Partner Services?",
+    "How does Microsoft describe its Azure AI offerings?",
+    "What drives Dynamics revenue according to Microsoft?",
+    "What factors impact Windows OEM revenue?",
+
+    # ---------- AWS Well-Architected Framework ----------
+
+    "What are the six pillars of the AWS Well-Architected Framework?",
+    "What are the design principles of the Operational Excellence pillar?"
 
 ]
-
+ 
+use_case={
+        'id' : 'UC:1',
+        'name' : 'default RAG',
+        'llm_model' : 'gpt-4o-mini',
+        'embedding_model': 'sentence-transformers/all-MiniLM-L6-v2',
+        'retriever': {
+            'chunk_size' : 1000,
+            'chunk_overlap': 200
+        }
+    }
 
 rag_scores=list()
 def save_list_to_file(data_list, filename):
@@ -82,11 +91,11 @@ def save_list_to_file(data_list, filename):
     except (OSError, IOError) as e:
         print(f"Error saving list to file: {e}")
 
-    
+no=1    
 
 if dr.LoadDatabase():
-    for q in samples:
-        question = q["question"]
+    for q in questions:
+        question = q 
         print(f'evaluating : {question}')
         context = dr.retrieve_context(question)
         ans = rc.generate_answer_with_context(question,context)
@@ -107,6 +116,8 @@ if dr.LoadDatabase():
         ground_score= lEval.compute_groundedness(context, ans.content)
         
         single_score= {
+            'UseCase_id' : 'UC:1',
+            'QNo' : no, 
             'question' : question,
             'context' : context,
             'answer' : ans.content,
@@ -116,7 +127,9 @@ if dr.LoadDatabase():
             'groundedness': ground_score
         }
         
+        
         rag_scores.append(single_score)
+        no+=1
         
 
 

@@ -81,11 +81,11 @@ if dr.LoadDatabase():
         # ca_score = lEval.compute_context_adherence(question,context,ans.content)        
         # print(ca_score)
         
-        # cp_score = lEval.compute_context_precision(question, dr.docs)
-        # print(cp_score)
+        cp_score = lEval.compute_context_precision(question, dr.docs)
+        print(cp_score)
         
-        ans_rel = lEval.compute_answer_relevance(question, ans.content)
-        print(ans_rel)
+        # ans_rel = lEval.compute_answer_relevance(question, ans.content)
+        # print(ans_rel)
         
         
         

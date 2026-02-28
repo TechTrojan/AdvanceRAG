@@ -4,6 +4,7 @@ from langchain.messages import HumanMessage, AIMessage, SystemMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_community.embeddings import HuggingFaceEmbeddings
 import numpy as np
+from langchain_core.documents import Document
 
 
 class LLMEvaluator:
@@ -38,8 +39,7 @@ Context Precision measures how relevant the retrieved document chunk is to the q
 Instructions:
 - Read the Question carefully.
 - Evaluate whether the Document is directly useful in answering the Question.
-- If highly relevant → score = 1.0
-- If partially relevant → score between 0.0 and 1.0
+- If highly relevant → 1
 - If irrelevant → score = 0.0
 
 Do NOT evaluate answer correctness.
@@ -54,27 +54,45 @@ strictly value between 0 to 1
         self._embedding = embedding
         
         
-    def compute_context_precision(self,question, retrieved_docs):
+    def compute_context_precision(self,question:str, retrieved_docs:list[Document])->float:
         relevant = 0
-         
+        
+        if len(retrieved_docs)==0 :
+            return 0 
+        
+        chat_prompt= ChatPromptTemplate.from_messages(
+            [
+                ("system", self.context_precision_system_prompt) ,
+                ("human", """
+                    Question: 
+                    {question}
+
+                    Document:
+                    {page_content}
+                 """)
+            ]
+        )
+        
+        print(chat_prompt.input_variables)
         
         for doc in retrieved_docs:
-            prompt = f"""
-            Question: {question}
-
-            Document:
-            {doc.page_content}
-
-            Is this document relevant to the question?
-            Answer Yes or No.
+            response = None 
             
-            Output:
-            strictly value Yes or No
-            """
-            response = self._llm.invoke(prompt)
+            chain =  chat_prompt | self._llm
+            
+            try:
+                response = chain.invoke(
+                    {
+                        "question": question,
+                        "page_content": doc.page_content
+                    }
+                )
 
-            if "yes" in response.content.lower():
-                relevant += 1
+                if "1" in response.content:
+                    relevant += 1
+            except Exception as e :
+                print(e) 
+            
 
         return relevant / len(retrieved_docs)
     

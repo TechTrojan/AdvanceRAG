@@ -1,0 +1,23 @@
+You will create 20 questions like:
+
+Finance – Numeric (5)
+
+What was NVIDIA total revenue in 2024?
+
+What segment drove Microsoft’s largest revenue?
+
+Finance – Section Based (5)
+
+What risks does NVIDIA list regarding supply chain?
+
+What are Microsoft’s competition risks?
+
+Cloud – Conceptual (5)
+
+What are the five pillars of AWS Well-Architected?
+
+What is the purpose of the reliability pillar?
+
+Multi-hop (5)
+
+Compare how NVIDIA and Microsoft describe A

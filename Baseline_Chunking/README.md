@@ -30,6 +30,8 @@ PDFs → Chunking → Embeddings → FAISS → Retrieval
 Retrieval → Context + Question → gpt-4o-mini → Answer
 Answer → LLM-as-Judge → Evaluation Metrics
 
+![Architecture Diagram](asset/images/Architect.png)
+
 ------------------------------------------------------------------------
 
 # 📂 Dataset

@@ -68,6 +68,9 @@ We evaluated using the following RAG quality metrics:
 | Context Precision | 0.4571   | **0.4762** | +0.0190     |
 | Answer Relevance  | 0.6982   | **0.7448** | +0.0466     |
 
+
+Note : Detailed result of each question can be found <a href="https://github.com/TechTrojan/AdvanceRAG/tree/base_chunk_600/Baseline_Chunking/eval_result">here</a>
+
 ---
 
 # 🔎 Observations

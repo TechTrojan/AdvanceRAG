@@ -9,7 +9,7 @@ import json
 
 load_dotenv()
 
-path=r"C:\repo\TechTrojan\AdvanceRAG\Baseline_Chunking\data\faiss_index"
+path=r"C:\repo\TechTrojan\AdvanceRAG\Baseline_Chunking\data\index_data\faiss_index_base_chunk_600"
 
 dr = DataRetriever(path)
 
@@ -66,15 +66,18 @@ questions = [
 ]
  
 use_case={
-        'id' : 'UC:1',
-        'name' : 'default RAG',
+        'id' : 'UC:2',
+        'name' : 'Changed chunk size',
         'llm_model' : 'gpt-4o-mini',
         'embedding_model': 'sentence-transformers/all-MiniLM-L6-v2',
         'retriever': {
-            'chunk_size' : 1000,
-            'chunk_overlap': 200
+            'chunk_size' : 600,
+            'chunk_overlap': 60
         }
     }
+
+use_case_id = use_case['id']
+
 
 rag_scores=list()
 def save_list_to_file(data_list, filename):
@@ -116,7 +119,7 @@ if dr.LoadDatabase():
         ground_score= lEval.compute_groundedness(context, ans.content)
         
         single_score= {
-            'UseCase_id' : 'UC:1',
+            'UseCase_id' : use_case_id ,
             'QNo' : no, 
             'question' : question,
             'context' : context,

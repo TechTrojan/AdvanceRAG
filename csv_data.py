@@ -17,12 +17,12 @@ def generate_csv_from_json(filePath: str):
     # Normalize nested fields
     df = json_normalize(data)
 
-    df.to_csv("eval_result.csv", index=False)
+    df.to_csv("eval_result_2.csv", index=False)
 
     print("CSV generated successfully!")
         
 
 
 #save_list_to_file(rag_scores,'regular_rag')
-
+filePath = ""
 generate_csv_from_json( "regular_rag.json")

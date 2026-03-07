@@ -11,8 +11,8 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 class PDFDataIngester:
     documents= [] 
     dirPath:str= '' 
-    chk_size:int = 1000
-    chk_overlap:int = 200
+    chk_size:int = 600
+    chk_overlap:int = 60
     emd_model : str  = 'text-embedding-3-small'
     splitter: RecursiveCharacterTextSplitter  = None 
     chunks : list[Document] = None 
@@ -70,12 +70,13 @@ class PDFDataIngester:
         except Exception as e :
             print(e)
 
-    def store_vector_to_local(self) -> str :
+    def store_vector_to_local(self, filePath:str ) -> str :
         localPath: str = None 
         
         try:
-            localPath = f"{self.dirPath}\\faiss_index"    
+            localPath = f"{self.dirPath}\\index_data\\faiss_index_base_chunk_600"    
             self.vec_store.save_local(localPath)
+            return f"Vector store created in local at {localPath}"
         except Exception as e :
             print(e)
 
@@ -90,13 +91,16 @@ cwd = os.getcwd()
 
 
 dirPath  = f"{cwd}\\Baseline_Chunking\\data\\"
+raw_file_path= f"{cwd}\\raw"
 
-pdfdata= PDFDataIngester(dirPath, "sentence-transformers/all-MiniLM-L6-v2")
+pdfdata= PDFDataIngester(raw_file_path, "sentence-transformers/all-MiniLM-L6-v2")
 pdfdata.LoadDocuments()
 pdfdata.init_splitter()
 pdfdata.create_chunks()
 pdfdata.create_vector_store()
+local_vec_Path=f"{cwd}\\index_data"
 pdfdata.store_vector_to_local()
+
 
 
 

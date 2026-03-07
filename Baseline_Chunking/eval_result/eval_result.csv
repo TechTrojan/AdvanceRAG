@@ -192,7 +192,7 @@ $
 $
 29,830 
 See accompanying Notes to the Consolidated Financial Statements.
-52",I don't know.,0,0,0.096,0,[],The answer does not provide any factual claims that can be traced back to the context.
+52",I don't know.,0.0,0.0,0.096,0.0,[],The answer does not provide any factual claims that can be traced back to the context.
 UC:1,2,What was NVIDIA Data Center revenue in fiscal year 2024?,"expanded to several other large and important computationally intensive fields. Fueled by the sustained demand for exceptional 3D graphics and the scale of the
 gaming market, NVIDIA has leveraged its GPU architecture to create platforms for scientific computing, AI, data science, autonomous vehicles, robotics, and
 digital twin applications. NVIDIA is now a data center scale AI infrastructure company reshaping all industries.
@@ -354,7 +354,7 @@ A discussion regarding our financial condition and results of operations for fis
 regarding our financial condition and results of operations for fiscal year 2025 compared to fiscal year 2024 can be found under Item 7 in our Annual Report on
 Form 10-K for the fiscal year ended January 26, 2025, filed with the SEC on February 26, 2025, which is available free of charge on the SEC’s website at
 http://www.sec.gov and at our investor relations website, http://investor.nvidia.com.
-39",I don't know.,0,0,0.11,0,[],The answer does not provide any factual claims that can be traced back to the context.
+39",I don't know.,0.0,0.0,0.110,0.0,[],The answer does not provide any factual claims that can be traced back to the context.
 UC:1,3,How much operating income did NVIDIA report in fiscal year 2024?,"Table of Contents
 NVIDIA Corporation and Subsidiaries
 Notes to the Consolidated Financial Statements
@@ -602,7 +602,7 @@ A discussion regarding our financial condition and results of operations for fis
 regarding our financial condition and results of operations for fiscal year 2025 compared to fiscal year 2024 can be found under Item 7 in our Annual Report on
 Form 10-K for the fiscal year ended January 26, 2025, filed with the SEC on February 26, 2025, which is available free of charge on the SEC’s website at
 http://www.sec.gov and at our investor relations website, http://investor.nvidia.com.
-39","NVIDIA reported operating income of $32,972 million in fiscal year 2024.",1,0.4,0.888,0,"['NVIDIA reported operating income of $32,972 million in fiscal year 2024.']","The claim about NVIDIA's operating income for fiscal year 2024 is unsupported; the context states the operating income for that year was $32,972 million, but it is incorrectly attributed to fiscal year 2024 instead of fiscal year 2025."
+39","NVIDIA reported operating income of $32,972 million in fiscal year 2024.",1.0,0.4,0.888,0.0,"['NVIDIA reported operating income of $32,972 million in fiscal year 2024.']","The claim about NVIDIA's operating income for fiscal year 2024 is unsupported; the context states the operating income for that year was $32,972 million, but it is incorrectly attributed to fiscal year 2024 instead of fiscal year 2025."
 UC:1,4,What percentage of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024?,"Table of Contents
 NVIDIA Corporation and Subsidiaries
 Notes to the Consolidated Financial Statements
@@ -765,7 +765,7 @@ system integrators. Certain direct customers may use either internal resources o
 customers as those who purchase products through our direct customers; indirect customers include CSPs, Neocloud builders, AI model makers, enterprises,
 and public sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue.
 Direct Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14%
-of total revenue, all of which were primarily attributable to the Compute & Networking segment.",48% of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024.,1,0.2,0.919,1,[],The claim that 48% of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024 is directly supported by the context provided.
+of total revenue, all of which were primarily attributable to the Compute & Networking segment.",48% of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024.,1.0,0.2,0.919,1.0,[],The claim that 48% of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024 is directly supported by the context provided.
 UC:1,5,"What were NVIDIA total long-lived assets as of January 25, 2026?","Table of Contents
 NVIDIA Corporation and Subsidiaries
 Notes to the Consolidated Financial Statements
@@ -945,7 +945,7 @@ $
 $
 29,830 
 See accompanying Notes to the Consolidated Financial Statements.
-52","Total long-lived assets as of January 25, 2026, were $10,383 million.",1,0.2,0.609,1,[],"The claim about total long-lived assets as of January 25, 2026, being $10,383 million is directly supported by the context."
+52","Total long-lived assets as of January 25, 2026, were $10,383 million.",1.0,0.2,0.609,1.0,[],"The claim about total long-lived assets as of January 25, 2026, being $10,383 million is directly supported by the context."
 UC:1,6,What segments does NVIDIA report in its segment information?,"to update the reasons actual results could differ materially from those anticipated in these forward-looking statements, even if new information becomes
 available in the future.
 All references to “NVIDIA,” “we,” “us,” “our,” or the “Company” mean NVIDIA Corporation and its subsidiaries.
@@ -1039,7 +1039,7 @@ following our press releases, SEC filings and public conference calls and webcas
 these channels is not a part of this Annual Report on Form 10-K.
 Forward-Looking Statements
 This Annual Report on Form  10-K contains forward-looking statements within the meaning of Section 27A of the Securities Act of 1933, as amended, and
-Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management's",I don't know.,0,0,0.18,0,[],The answer does not contain any factual claims that can be traced back to the context.
+Section 21E of the Securities Exchange Act of 1934, as amended, which are subject to the “safe harbor” created by those sections based on management's",I don't know.,0.0,0.0,0.180,0.0,[],The answer does not contain any factual claims that can be traced back to the context.
 UC:1,7,What does NVIDIA include in its Compute & Networking segment?,"expanded to several other large and important computationally intensive fields. Fueled by the sustained demand for exceptional 3D graphics and the scale of the
 gaming market, NVIDIA has leveraged its GPU architecture to create platforms for scientific computing, AI, data science, autonomous vehicles, robotics, and
 digital twin applications. NVIDIA is now a data center scale AI infrastructure company reshaping all industries.
@@ -1083,7 +1083,7 @@ data centers. The platform consists of data center compute and networking infras
 subsystems, or modules, along with software and services.
 Our Data Center infrastructure systems include supercomputing platforms and servers, bringing together our higher performance, energy efficient GPUs, CPUs,
 interconnects, and fully optimized AI and HPC software stacks. In addition, they include a growing body of acceleration libraries, AI models and training data
-sets, APIs, SDKs, and domain-specific application frameworks.","The Compute & Networking segment includes NVIDIA's Data Center accelerated computing and networking platforms, AI solutions and software, and Automotive platforms and autonomous and electric vehicle solutions including software.",1,0.6,0.81,1,[],All claims in the answer are directly supported by the context.
+sets, APIs, SDKs, and domain-specific application frameworks.","The Compute & Networking segment includes NVIDIA's Data Center accelerated computing and networking platforms, AI solutions and software, and Automotive platforms and autonomous and electric vehicle solutions including software.",1.0,0.6,0.810,1.0,[],All claims in the answer are directly supported by the context.
 UC:1,8,How much depreciation expense did NVIDIA report in fiscal year 2024?,"Table of Contents
 NVIDIA Corporation and Subsidiaries
 Notes to the Consolidated Financial Statements
@@ -1313,7 +1313,7 @@ Year Ended
  
 Jan 25, 2026
 Jan 26, 2025
-Jan 28, 2024",NVIDIA reported depreciation expense of $894 million in fiscal year 2024.,1,0.4,0.902,1,[],The claim about NVIDIA reporting depreciation expense of $894 million in fiscal year 2024 is directly supported by the context provided.
+Jan 28, 2024",NVIDIA reported depreciation expense of $894 million in fiscal year 2024.,1.0,0.4,0.902,1.0,[],The claim about NVIDIA reporting depreciation expense of $894 million in fiscal year 2024 is directly supported by the context provided.
 UC:1,9,What are NVIDIA future operating lease obligations for fiscal year 2027?,"Table of Contents
 NVIDIA Corporation and Subsidiaries
 Notes to the Consolidated Financial Statements
@@ -1457,7 +1457,7 @@ Less short-term operating lease liabilities
 Long-term operating lease liabilities
 $
 2,572 
-Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $22.7 billion, primarily data center leases to support our research",NVIDIA's future operating lease obligations for fiscal year 2027 are $493 million.,1,0.4,0.873,1,[],The claim about NVIDIA's future operating lease obligations for fiscal year 2027 being $493 million is directly supported by the context provided.
+Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $22.7 billion, primarily data center leases to support our research",NVIDIA's future operating lease obligations for fiscal year 2027 are $493 million.,1.0,0.4,0.873,1.0,[],The claim about NVIDIA's future operating lease obligations for fiscal year 2027 being $493 million is directly supported by the context provided.
 UC:1,10,How does NVIDIA define direct customers versus indirect customers?,"Table of Contents
 Concentration of Revenue
 We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and
@@ -1487,7 +1487,7 @@ contract is distinct. Except for License and Development Arrangements, NVIDIA pr
 represent monies paid to our partners that are earmarked for market segment development and are designed to support our partners’ activities while also
 promoting NVIDIA products. We account for customer programs as a reduction to revenue and accrue for such programs for potential rebates and MDFs based
 on the amount we expect to be claimed by customers.
-56","NVIDIA defines direct customers as those who purchase products directly from NVIDIA, including AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Indirect customers are those who purchase products through direct customers, which include CSPs, Neocloud builders, AI model makers, enterprises, and public sector entities.",1,0.6,0.864,1,[],All claims in the answer are directly supported by the context provided.
+56","NVIDIA defines direct customers as those who purchase products directly from NVIDIA, including AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Indirect customers are those who purchase products through direct customers, which include CSPs, Neocloud builders, AI model makers, enterprises, and public sector entities.",1.0,0.6,0.864,1.0,[],All claims in the answer are directly supported by the context provided.
 UC:1,11,What strategic and competitive risks does Microsoft disclose in its risk factors?,"factors. 
 •
 Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings. 
@@ -1688,7 +1688,7 @@ launch new offerings with new business models including software, services, and 
 2. Competitors range in size from diversified global companies with significant research and development resources to small, specialized firms, which may be more effective in deploying technical, marketing, and financial resources.
 3. Barriers to entry in many businesses are low, and many areas of competition evolve rapidly with changing and disruptive technologies.
 4. Failure to meet the evolving needs of the industry and markets may adversely impact financial results.
-5. Competition could adversely impact market share and financial results.",1,0.8,0.904,1,[],All claims in the answer are directly supported by the context provided.
+5. Competition could adversely impact market share and financial results.",1.0,0.8,0.904,1.0,[],All claims in the answer are directly supported by the context provided.
 UC:1,12,How does Microsoft describe competition in the technology sector?,"advertising solutions. In addition to first-party tools, we have several partnerships with companies through which we provide and monetize 
 search offerings. Growth depends on our ability to attract new users, understand intent, and match intent with relevant content on advertising 
 offerings.
@@ -1791,7 +1791,7 @@ Search and news advertising revenue excluding traffic acquisition costs increase
 Industry Trends and Opportunities
 Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an 
 opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, 
-we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address","Microsoft describes competition in the technology sector as facing various software products and alternative platforms and devices. They believe they compete effectively by providing customers with choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware and software applications. Additionally, devices face competition from various computer, tablet, and hardware manufacturers who offer high-quality industrial design and innovative technologies across different price points.",1,0.4,0.833,1,[],All claims in the answer are supported by the context provided.
+we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address","Microsoft describes competition in the technology sector as facing various software products and alternative platforms and devices. They believe they compete effectively by providing customers with choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware and software applications. Additionally, devices face competition from various computer, tablet, and hardware manufacturers who offer high-quality industrial design and innovative technologies across different price points.",1.0,0.4,0.833,1.0,[],All claims in the answer are supported by the context provided.
 UC:1,13,What products are included in Microsoft Intelligent Cloud segment?,"PART II
 Item 8
  
@@ -1947,7 +1947,7 @@ Total
 
 - Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services.
 - Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses (CALs), and other on-premises offerings.
-- Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.",1,0.8,0.805,1,[],All factual claims in the answer are directly supported by the context provided.
+- Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.",1.0,0.8,0.805,1.0,[],All factual claims in the answer are directly supported by the context provided.
 UC:1,14,How is Azure revenue primarily generated?,"SUMMARY RESULTS OF OPERATIONS
  
 (In millions, except percentages and per share amounts)
@@ -2078,7 +2078,7 @@ Activision Blizzard acquisition.
 Operating income increased $19.1 billion or 17% with growth across each of our segments.. PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories. 
 Service and other revenue includes sales from cloud-based solutions that provide customers with software, services, platforms, and content 
 such as Office 365, Azure, Dynamics 365, and gaming; solution support; and consulting services. Service and other revenue also includes 
-sales from online advertising and LinkedIn.","Azure revenue is primarily generated from server products and cloud services, driven by demand for the portfolio of services offered.",1,0.6,0.86,1,[],"The claim about Azure revenue being generated from server products and cloud services is supported by the context, which states that Azure and other cloud services revenue grew driven by demand for the portfolio of services."
+sales from online advertising and LinkedIn.","Azure revenue is primarily generated from server products and cloud services, driven by demand for the portfolio of services offered.",1.0,0.6,0.860,1.0,[],"The claim about Azure revenue being generated from server products and cloud services is supported by the context, which states that Azure and other cloud services revenue grew driven by demand for the portfolio of services."
 UC:1,15,What competitive advantages does Microsoft claim for Azure?,"SUMMARY RESULTS OF OPERATIONS
  
 (In millions, except percentages and per share amounts)
@@ -2204,7 +2204,7 @@ Microsoft Cloud gross margin percentage decreased to 69% driven by the impact of
 by efficiency gains in Azure.
 Operating expenses increased $3.8 billion or 6% driven by investments in cloud and AI engineering and Gaming, including the impact of the 
 Activision Blizzard acquisition.
-Operating income increased $19.1 billion or 17% with growth across each of our segments.","Azure’s competitive advantages include enabling a hybrid cloud, allowing deployment of existing datacenters with their public cloud into a single, cohesive infrastructure, and the ability to run at a.",1,0.2,0.717,1,[],"All claims in the answer are directly supported by the context, specifically regarding Azure's competitive advantages."
+Operating income increased $19.1 billion or 17% with growth across each of our segments.","Azure’s competitive advantages include enabling a hybrid cloud, allowing deployment of existing datacenters with their public cloud into a single, cohesive infrastructure, and the ability to run at a.",1.0,0.2,0.717,1.0,[],"All claims in the answer are directly supported by the context, specifically regarding Azure's competitive advantages."
 UC:1,16,What services are included in Microsoft Enterprise and Partner Services?,"consulting, and fulfillment functions for our products and services; and managing OEM relationships.
 Direct 
 Many organizations that license our products and services transact directly with us through Enterprise Agreements and Enterprise Services 
@@ -2245,7 +2245,7 @@ added resellers (“VAR”), and retailers. Although each type of reselling part
 engaged with large organizations, distributors resell primarily to VARs, and VARs typically reach small and medium organizations. ESAs are 
 also typically authorized as LSPs and operate as resellers for our other volume licensing programs. Microsoft Cloud Solution Provider is our 
 main partner program for reselling cloud services. 
-We distribute our retail packaged products primarily through independent non-exclusive distributors, authorized replicators, resellers, and","Microsoft Enterprise and Partner Services include Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.",1,0.2,0.868,1,[],All claims in the answer are directly supported by the context provided.
+We distribute our retail packaged products primarily through independent non-exclusive distributors, authorized replicators, resellers, and","Microsoft Enterprise and Partner Services include Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner Network, and Learning Experience.",1.0,0.2,0.868,1.0,[],All claims in the answer are directly supported by the context provided.
 UC:1,17,How does Microsoft describe its Azure AI offerings?,"PART I
 Item 1
  
@@ -2284,7 +2284,7 @@ strive to create opportunity, growth, and impact in every country around the wor
 AI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the. decreased slightly primarily driven by the impact of scaling our AI infrastructure, offset in part by efficiency gains in Microsoft 365 
 Commercial cloud.
 •
-Operating expenses increased $1.1 billion or 4% driven by investments in cloud and AI engineering and commercial sales.","Microsoft describes its Azure AI offerings as providing a competitive advantage as companies seek ways to optimize and scale their business with AI. They offer supercomputing power for AI at scale to run large workloads, complemented by a rapidly expanding portfolio of AI cloud services, including the latest models and hardware, which features custom-built silicon and strong partnerships with chip manufacturers. Additionally, Azure AI Foundry is mentioned as a unified platform for developers to design, customize, and manage AI applications and agents.",1,0.6,0.81,1,[],All claims in the answer are directly supported by the context provided.
+Operating expenses increased $1.1 billion or 4% driven by investments in cloud and AI engineering and commercial sales.","Microsoft describes its Azure AI offerings as providing a competitive advantage as companies seek ways to optimize and scale their business with AI. They offer supercomputing power for AI at scale to run large workloads, complemented by a rapidly expanding portfolio of AI cloud services, including the latest models and hardware, which features custom-built silicon and strong partnerships with chip manufacturers. Additionally, Azure AI Foundry is mentioned as a unified platform for developers to design, customize, and manage AI applications and agents.",1.0,0.6,0.810,1.0,[],All claims in the answer are directly supported by the context provided.
 UC:1,18,What drives Dynamics revenue according to Microsoft?,"revenue grew 11% driven by Microsoft 365 Consumer subscriber growth of 8% to 89.0 million, as well as growth in revenue per 
 user from the price increase announced in January 2025.
 •
@@ -2425,7 +2425,7 @@ Microsoft Cloud gross margin percentage decreased to 69% driven by the impact of
 by efficiency gains in Azure.
 Operating expenses increased $3.8 billion or 6% driven by investments in cloud and AI engineering and Gaming, including the impact of the 
 Activision Blizzard acquisition.
-Operating income increased $19.1 billion or 17% with growth across each of our segments.","Dynamics revenue is driven by growth in Dynamics 365, which saw a revenue growth of 19%.",1,0.8,0.674,1,[],The claim about Dynamics revenue being driven by growth in Dynamics 365 with a revenue growth of 19% is directly supported by the context.
+Operating income increased $19.1 billion or 17% with growth across each of our segments.","Dynamics revenue is driven by growth in Dynamics 365, which saw a revenue growth of 19%.",1.0,0.8,0.674,1.0,[],The claim about Dynamics revenue being driven by growth in Dynamics 365 with a revenue growth of 19% is directly supported by the context.
 UC:1,19,What factors impact Windows OEM revenue?,"•
 Search and news advertising, comprising Bing and Copilot, Microsoft News, Microsoft Edge, and third-party affiliates.
 Windows and Devices
@@ -2549,7 +2549,7 @@ ability to attract new customers, our product roadmap, and expanding into new ca
 8. Pricing changes and promotions.
 9. Pricing variation that occurs when the mix of devices manufactured shifts from local and regional system builders to large multinational OEMs.
 10. Constraints in the supply chain of device components.
-11. Piracy.",1,0.8,0.88,1,[],All claims made in the answer are directly supported by the context provided.
+11. Piracy.",1.0,0.8,0.880,1.0,[],All claims made in the answer are directly supported by the context provided.
 UC:1,20,What are the six pillars of the AWS Well-Architected Framework?,"AWS Well-Architected Framework
 Framework
 Further reading
@@ -2615,7 +2615,7 @@ strategies to use when designing and operating a cloud workload, and provides li
 implementation details and architectural patterns. For more information, see the AWS Well-
 Architected homepage.
 Introduction
-1","The six pillars of the AWS Well-Architected Framework are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.",1,0.8,0.905,1,[],All claims in the answer are directly supported by the context.
+1","The six pillars of the AWS Well-Architected Framework are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.",1.0,0.8,0.905,1.0,[],All claims in the answer are directly supported by the context.
 UC:1,21,What are the design principles of the Operational Excellence pillar?,"• Security
 • Reliability
 • Performance eﬃciency
@@ -2690,5 +2690,4 @@ Pillars
 • Cost optimization
 • Sustainability
 Operational excellence
-Operational excellence (OE) is a commitment to build software correctly while consistently",I don't know.,0,0.8,0.156,0,[],The answer does not provide any factual claims that can be traced back to the context.
-,,,,,,,,,,
+Operational excellence (OE) is a commitment to build software correctly while consistently",I don't know.,0.0,0.8,0.156,0.0,[],The answer does not provide any factual claims that can be traced back to the context.

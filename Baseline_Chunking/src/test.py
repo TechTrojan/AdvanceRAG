@@ -133,7 +133,7 @@ if dr.LoadDatabase():
         
 
 
-save_list_to_file(rag_scores,'regular_rag')
+save_list_to_file(rag_scores,'regular_rag.json')
 
 
         

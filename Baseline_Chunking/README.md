@@ -1,26 +1,25 @@
-# 📚 AdvanceRAG -- Baseline Chunking Experiment
+# 📚 Advanced RAG Optimization — Chunk Size 600 Experiment
 
-A structured Retrieval-Augmented Generation (RAG) baseline experiment
-built using:
+This repository contains experiments focused on improving Retrieval-Augmented Generation (RAG) performance by tuning chunking parameters.
 
--   LangChain
--   FAISS (local persistent vector store)
--   sentence-transformers/all-MiniLM-L6-v2 embeddings
--   gpt-4o-mini for answer generation
--   LLM-as-Judge evaluation framework
--   Windows local environment
+Branch: `base_chunk_600`
+Location: `Baseline_Chunking/`
 
-------------------------------------------------------------------------
+---
 
 # 🎯 Objective
 
-Build and evaluate a baseline RAG system that:
+Improve RAG answer quality and retrieval precision by optimizing:
 
-1.  Extracts and chunks PDFs
-2.  Creates a vector-based retrieval system
-3.  Generates answers grounded in retrieved context
-4.  Evaluates answer quality using LLM-as-judge
-5.  Produces structured evaluation metrics
+* **Chunk Size:** 600 tokens
+* **Chunk Overlap:** 60 tokens
+
+The hypothesis was that smaller, more semantically focused chunks would:
+
+* Reduce irrelevant context retrieval
+* Improve answer relevance
+* Improve context precision
+* Maintain groundedness
 
 ------------------------------------------------------------------------
 
@@ -30,121 +29,154 @@ PDFs → Chunking → Embeddings → FAISS → Retrieval
 Retrieval → Context + Question → gpt-4o-mini → Answer
 Answer → LLM-as-Judge → Evaluation Metrics
 
-![Architecture Diagram](asset/images/Architect.png)
+![Architecture Diagram](asset/images/Architect_chunk_600.png)
 
 ------------------------------------------------------------------------
 
-# 📂 Dataset
 
-  Source                           Type
-  -------------------------------- -------------------------------
-  NVIDIA 10-K                      Financial document
-  Microsoft 10-K                   Financial + Business document
-  AWS Well-Architected Framework   Cloud Architecture Whitepaper
+# ⚙️ Experiment Setup
 
-Total PDFs: 3
-Chunk size: 1000
-Chunk overlap: 200
+| Parameter            | Baseline                | Improved             |
+| -------------------- | ----------------------- | -------------------- |
+| Chunk Size           | Default (larger chunks) | **600 tokens**       |
+| Chunk Overlap        | Default                 | **60 tokens (~10%)** |
+| Embedding Model      | Same                    | Same                 |
+| LLM                  | Same                    | Same                 |
+| Evaluation Framework | Same                    | Same                 |
 
-------------------------------------------------------------------------
+All other variables were kept constant to isolate the impact of chunking strategy.
 
-# 🪓 1️⃣ PDF Extraction & Chunking
+---
 
-Method: - Extract text from PDFs - Apply recursive character splitting -
-Chunk size: 1000 - Overlap: 200
+# 📊 Evaluation Metrics
 
-Observation: Chunk size 1000 reduced context precision due to large
-financial tables.
+We evaluated using the following RAG quality metrics:
 
-------------------------------------------------------------------------
+* **Groundedness** — Are claims supported by context?
+* **Context Adherence** — Does answer rely on retrieved context?
+* **Context Precision** — Is retrieved context relevant?
+* **Answer Relevance** — Does answer directly address the question?
 
-# 🔎 2️⃣ Retrieval Layer
+---
 
-Embedding Model: sentence-transformers/all-MiniLM-L6-v2
+# 📈 Results Comparison
 
-Vector Store: FAISS (locally persisted)
+| Metric            | Baseline | Chunk 600  | Improvement |
+| ----------------- | -------- | ---------- | ----------- |
+| Groundedness      | 0.7619   | 0.7460     | −0.0159     |
+| Context Adherence | 0.8095   | **0.8476** | +0.0381     |
+| Context Precision | 0.4571   | **0.4762** | +0.0190     |
+| Answer Relevance  | 0.6982   | **0.7448** | +0.0466     |
 
-------------------------------------------------------------------------
+---
 
-# ✨ 3️⃣ Answer Generation
+# 🔎 Observations
 
-LLM used: gpt-4o-mini
+### 1️⃣ Groundedness
 
-Input: - User Question - Top-k Retrieved Chunks
+Slight decrease (−0.016), statistically negligible.
+No meaningful increase in hallucination rate.
 
-Prompt Strategy: - Strictly answer from context - Avoid hallucination -
-Say "I don't know" if answer absent
+### 2️⃣ Context Adherence ↑
 
-------------------------------------------------------------------------
+Improved reliance on retrieved context.
 
-# 📊 4️⃣ Evaluation Framework (LLM-as-Judge)
+### 3️⃣ Context Precision ↑
 
-Metrics Used:
+Cleaner retrieval with reduced irrelevant financial tables.
 
-1.  Context Adherence
-2.  Context Precision
-3.  Answer Relevance
-4.  Groundedness
+### 4️⃣ Answer Relevance ↑ (Largest Gain)
 
-------------------------------------------------------------------------
+Improved semantic matching and fewer vague responses.
 
-# 📈 Evaluation Results Summary
+---
 
-From 21 evaluated questions:
+# 🧠 Why Chunk Size 600 Works Better
 
--   Context Adherence: ~76%
--   Context Precision: Moderate (~0.48 avg)
--   Answer Relevance: Strong (~0.74 avg)
--   Groundedness: High (except temporal mismatch cases)
+Financial documents (10-K filings, risk disclosures, etc.) often contain:
 
-------------------------------------------------------------------------
+* Large structured tables
+* Repeated headings
+* Dense financial data
 
-# 🔎 Key Observations
+Large chunks:
 
-Strengths: 
-- Retrieval surfaces correct financial tables 
-- Most answers grounded in context - Low hallucination rate
+* Introduce noise
+* Reduce embedding discrimination
+* Increase irrelevant retrieval
 
-Failure Modes: 
-- Temporal misalignment in multi-year tables 
-- Conservative "I don't know" responses 
-- Low precision due to large chunk size
+Smaller chunks (600 tokens):
 
-------------------------------------------------------------------------
+* Improve semantic targeting
+* Increase embedding granularity
+* Reduce context dilution
+* Improve answer focus
 
-# 🚀 Improvement Roadmap
+---
 
--   Reduce chunk size to 600--800
--   Add year-alignment guardrails
--   Add table-aware prompting
--   Add hybrid retrieval or reranking
+# 📌 Key Takeaway
 
-------------------------------------------------------------------------
+Chunk size **600 with 60 overlap** improves overall RAG performance for structured financial documents.
 
-# 🏗 Tech Stack
+The increase in:
 
--   LangChain
--   FAISS
--   sentence-transformers/all-MiniLM-L6-v2
--   gpt-4o-mini
--   Python
--   Windows local environment
+* Context Adherence
+* Context Precision
+* Answer Relevance
 
-------------------------------------------------------------------------
+outweighs the negligible drop in groundedness.
 
-# 📌 Baseline System Maturity
+---
 
-Retrieval: ⭐⭐⭐⭐☆
-Generation: ⭐⭐⭐⭐☆
-Grounding: ⭐⭐⭐⭐☆
-Precision: ⭐⭐⭐☆☆
-Temporal Robustness: ⭐⭐☆☆☆
+# 🚀 Recommended Configuration
 
-Overall: 7.5 / 10 Baseline RAG
+For SEC filings and structured reports:
 
-------------------------------------------------------------------------
+```
+chunk_size = 600
+chunk_overlap = 60
+```
+
+Suggested tuning range:
+
+* Chunk Size: 500–800
+* Overlap: 10–15%
+
+---
+
+# 🧪 Future Improvements
+
+* Test chunk size 500 vs 700
+* Evaluate impact of dynamic chunking
+* Try semantic chunking instead of fixed window
+* Test hybrid retrieval (BM25 + vector)
+* Add reranking layer
+
+---
+
+# 📂 Repository Structure
+
+```
+Baseline_Chunking/
+├── ingestion.py
+├── retrieval.py
+├── evaluation.py
+├── configs/
+├── results/
+└── README.md
+```
+
+---
+
+# 📖 Reference
+
+Chunk size 600 implementation:
+https://github.com/TechTrojan/AdvanceRAG/tree/base_chunk_600/Baseline_Chunking
+
+---
 
 # 👨‍💻 Author
 
-AdvanceRAG experimentation series focusing on evaluation-first RAG
-architecture design.
+Experiment conducted to optimize RAG parameter tuning for structured enterprise documents.
+
+---

@@ -66,8 +66,8 @@ questions = [
 ]
  
 use_case={
-        'id' : 'UC:2',
-        'name' : 'Changed chunk size',
+        'id' : 'UC:3.6',
+        'name' : 'Changed chunk size + Hybrid search, weidht 0.5, 0.5, documents 10, Reranking ',
         'llm_model' : 'gpt-4o-mini',
         'embedding_model': 'sentence-transformers/all-MiniLM-L6-v2',
         'retriever': {
@@ -99,7 +99,7 @@ no=1
 if dr.LoadDatabase():
     for q in questions:
         question = q 
-        print(f'evaluating : {question}')
+        print(f'evaluating : {str(no)} :  {question}')
         context = dr.retrieve_context(question)
         ans = rc.generate_answer_with_context(question,context)
         

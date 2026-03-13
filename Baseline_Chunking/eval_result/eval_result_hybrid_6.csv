@@ -1,0 +1,2801 @@
+UseCase_id,QNo,question,context,answer,context_adherence,context_precision,answer_relevance,groundedness.score,groundedness.unsupported_claims,groundedness.reason
+UC:3.6,1,What was NVIDIA total revenue for fiscal year 2024?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+We recognized revenue of $974 million and $729 million in fiscal years 2026 and 2025, respectively, that were included in the prior year end deferred revenue
+balance.
+As of January 25, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $2.3 billion, which includes
+$1.9 billion from deferred revenue and $390 million which has not yet been billed nor recognized as revenue. Approximately 42% of revenue from contracts. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Income
+(In millions, except per share data)
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+Cost of revenue
+62,475 
+32,639 
+16,621 
+Gross profit
+153,463 
+97,858 
+44,301 
+Operating expenses
+Research and development
+18,497 
+12,914 
+8,675 
+Sales, general and administrative
+4,579 
+3,491 
+2,654 
+Total operating expenses
+23,076 
+16,405 
+11,329 
+Operating income
+130,387 
+81,453 
+32,972 
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259)
+(247)
+(257)
+Other income, net
+9,022. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The following table summarizes revenue by specialized markets:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue by End Market:
+(In millions)
+Data Center
+$
+193,737 
+$
+115,186 
+$
+47,525 
+Compute
+162,361 
+102,196 
+38,950 
+Networking
+31,376 
+12,990 
+8,575 
+Gaming
+16,042 
+11,350 
+10,447 
+Professional Visualization
+3,191 
+1,878 
+1,553 
+Automotive
+2,349 
+1,694 
+1,091 
+OEM and Other
+619 
+389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+Income before income tax consists of the following:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+ 
+(In millions)
+U.S.
+$
+123,181 
+$
+77,456 
+$
+29,495 
+Foreign
+18,269 
+6,570 
+4,323 
+Income before income tax
+$
+141,450 
+$
+84,026 
+$
+33,818 
+The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21.0% to income before income taxes for the
+fiscal year ended January 25, 2026 as follows:
+ 
+Year Ended
+ 
+Jan 25, 2026. Up 65%
+Net income per diluted share
+$
+4.90 
+$
+2.94 
+Up 67%
+Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago.
+Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated
+computing and AI.
+Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to
+Gaming in the first quarter of fiscal 2027 and beyond.. Recent Developments, Future Objectives and Challenges
+Revenue growth in fiscal year 2026 was driven by data center compute and networking platforms for accelerated computing and AI solutions. Our Blackwell
+architectures represented the majority of our Data Center revenue.
+The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage
+of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex,. (2)
+In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe.
+Revenue from sales to customers headquartered outside of the United States accounted for 31%, 41%, and 48% of total revenue for fiscal years 2026, 2025,
+and 2024, respectively. The increase in revenue to the United States for fiscal years 2026 and 2025 was primarily due to higher U.S.-based Compute &
+Networking segment demand.. and public sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue.
+Direct Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14%
+of total revenue, all of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2025, sales to one direct customer represented 12% of total revenue and sales to two direct customers each represented 11% of total revenue, all. Gaming in the first quarter of fiscal 2027 and beyond.
+Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our
+new DGX Spark.
+Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms.
+Gross margin decreased in fiscal year 2026 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions.",NVIDIA's total revenue for fiscal year 2024 was $60.922 billion.,1,0.2,0.908,1,[],The claim about NVIDIA's total revenue for fiscal year 2024 is directly supported by the context provided.
+UC:3.6,2,What was NVIDIA Data Center revenue in fiscal year 2024?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The following table summarizes revenue by specialized markets:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue by End Market:
+(In millions)
+Data Center
+$
+193,737 
+$
+115,186 
+$
+47,525 
+Compute
+162,361 
+102,196 
+38,950 
+Networking
+31,376 
+12,990 
+8,575 
+Gaming
+16,042 
+11,350 
+10,447 
+Professional Visualization
+3,191 
+1,878 
+1,553 
+Automotive
+2,349 
+1,694 
+1,091 
+OEM and Other
+619 
+389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+We recognized revenue of $974 million and $729 million in fiscal years 2026 and 2025, respectively, that were included in the prior year end deferred revenue
+balance.
+As of January 25, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $2.3 billion, which includes
+$1.9 billion from deferred revenue and $390 million which has not yet been billed nor recognized as revenue. Approximately 42% of revenue from contracts. Recent Developments, Future Objectives and Challenges
+Revenue growth in fiscal year 2026 was driven by data center compute and networking platforms for accelerated computing and AI solutions. Our Blackwell
+architectures represented the majority of our Data Center revenue.
+The availability of data centers, energy, and capital to support the buildout of NVIDIA AI infrastructure by our customers and partners is crucial, and any shortage
+of these or other necessary resources could impact our future revenue and financial performance. Expanding energy capacity to meet demand is a complex,. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Income
+(In millions, except per share data)
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+Cost of revenue
+62,475 
+32,639 
+16,621 
+Gross profit
+153,463 
+97,858 
+44,301 
+Operating expenses
+Research and development
+18,497 
+12,914 
+8,675 
+Sales, general and administrative
+4,579 
+3,491 
+2,654 
+Total operating expenses
+23,076 
+16,405 
+11,329 
+Operating income
+130,387 
+81,453 
+32,972 
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259)
+(247)
+(257)
+Other income, net
+9,022. Up 65%
+Net income per diluted share
+$
+4.90 
+$
+2.94 
+Up 67%
+Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago.
+Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated
+computing and AI.
+Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to
+Gaming in the first quarter of fiscal 2027 and beyond.. (2)
+In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe.
+Revenue from sales to customers headquartered outside of the United States accounted for 31%, 41%, and 48% of total revenue for fiscal years 2026, 2025,
+and 2024, respectively. The increase in revenue to the United States for fiscal years 2026 and 2025 was primarily due to higher U.S.-based Compute &
+Networking segment demand.. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). Gaming in the first quarter of fiscal 2027 and beyond.
+Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our
+new DGX Spark.
+Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms.
+Gross margin decreased in fiscal year 2026 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions.. 9,156 
+5,085 
+4,071 
+80 %
+Total
+$
+139,297 
+$
+87,960 
+$
+51,337 
+58 %
+Compute & Networking revenue – The year over year increase was driven by the major platform shifts – accelerated computing and AI. Revenue from Data
+Center computing grew 59% driven by demand for our Blackwell computing platform. Revenue from Data Center networking grew 142% driven by the
+introduction and continued ramp of NVLink compute fabric for GB200 and GB300 systems and the growth of Ethernet and InfiniBand platforms.
+Graphics revenue – The year over year increase was driven by sales of our Blackwell architecture.. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+Note 1 - Organization and Summary of Significant Accounting Policies
+Our Company
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+All references to “NVIDIA,” “we,” “us,” “our” or the “Company” mean NVIDIA Corporation and its subsidiaries.
+Certain prior fiscal year balances have been reclassified to conform to the current fiscal year presentation. Non-marketable equity securities, previously","NVIDIA Data Center revenue in fiscal year 2024 was $47,525 million.",1,0.1,0.903,0,"['NVIDIA Data Center revenue in fiscal year 2024 was $47,525 million.']","The claim about NVIDIA Data Center revenue in fiscal year 2024 is not supported by the context, which provides revenue figures for fiscal years 2026, 2025, and 2024, but does not specify the Data Center revenue for 2024 as $47,525 million."
+UC:3.6,3,How much operating income did NVIDIA report in fiscal year 2024?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Income
+(In millions, except per share data)
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+Cost of revenue
+62,475 
+32,639 
+16,621 
+Gross profit
+153,463 
+97,858 
+44,301 
+Operating expenses
+Research and development
+18,497 
+12,914 
+8,675 
+Sales, general and administrative
+4,579 
+3,491 
+2,654 
+Total operating expenses
+23,076 
+16,405 
+11,329 
+Operating income
+130,387 
+81,453 
+32,972 
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259)
+(247)
+(257)
+Other income, net
+9,022. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Cash Flows
+(In millions)
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Cash flows from operating activities:
+ 
+ 
+Net income
+$
+120,067 
+$
+72,880 
+$
+29,760 
+Adjustments to reconcile net income to net cash provided by operating activities:
+Stock-based compensation expense
+6,386 
+4,737 
+3,549 
+Depreciation and amortization
+2,843 
+1,864 
+1,508 
+Gains on non-marketable equity securities and publicly-held equity securities, net
+(8,918)
+(1,030)
+(238)
+Deferred income taxes
+(1,424)
+(4,477)
+(2,489)
+Other
+(287)
+(502). Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+Income before income tax consists of the following:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+ 
+(In millions)
+U.S.
+$
+123,181 
+$
+77,456 
+$
+29,495 
+Foreign
+18,269 
+6,570 
+4,323 
+Income before income tax
+$
+141,450 
+$
+84,026 
+$
+33,818 
+The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21.0% to income before income taxes for the
+fiscal year ended January 25, 2026 as follows:
+ 
+Year Ended
+ 
+Jan 25, 2026. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21% to income before income taxes for fiscal
+years ended January 26, 2025 and January 28, 2024 as follows:
+Year Ended
+Jan 26, 2025
+Jan 28, 2024
+(In millions, except percentages)
+Tax expense computed at federal statutory rate
+$
+17,645 
+21.0 %
+$
+7,102 
+21.0 %
+Expense (benefit) resulting from:
+State income taxes, net of federal tax effect
+554 
+0.7 %
+120 
+0.4 %. Reportable segment operating income – The year over year increase in Compute & Networking segment operating income was driven by growth in revenue,
+partially offset by a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026. The year over year
+increase in Graphics segment operating income was driven by the growth in revenue.
+40. fiscal years 2025, 2024, and 2023, our foreign regional operating center in Ireland, which is taxed at a rate lower than the U.S. rate, 
+generated 81%, 83%, and 81% of our foreign income before tax. Other reconciling items, net consists primarily of tax credits and the U.S. 
+global intangible low-taxed income tax, and in fiscal year 2024, includes tax benefits from tax law changes. In fiscal year 2024, tax benefits 
+from tax law changes primarily relate to the delay of the effective date of final foreign tax credit regulations. In fiscal years 2025, 2024, and. Table of Contents
+ 
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+ 
+(In millions)
+Net cash provided by operating activities
+$
+102,718 
+$
+64,089 
+Net cash used in investing activities
+$
+(52,228)
+$
+(20,421)
+Net cash used in financing activities
+$
+(48,474)
+$
+(42,359)
+Our fixed income security investments include highly rated, diversified investment types and credit exposures with shorter maturities.
+Cash provided by operating activities increased in fiscal year 2026 compared to fiscal year 2025, due to higher revenue.. Up 65%
+Net income per diluted share
+$
+4.90 
+$
+2.94 
+Up 67%
+Revenue for fiscal year 2026 was $215.9 billion, up 65% from a year ago.
+Data Center revenue for fiscal year 2026 was up 68% from a year ago. The strong year-on-year growth was driven by the major platform shifts – accelerated
+computing and AI.
+Gaming revenue for fiscal year 2026 was up 41% from a year ago, driven by strong Blackwell demand. We expect supply constraints to be a headwind to
+Gaming in the first quarter of fiscal 2027 and beyond.. market leading performance and efficiency. Offered in a number of configurations, for customers across industries and a diverse set of AI and accelerated
+computing use cases. In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of
+fiscal year 2027. Built for agentic AI and reasoning, it excels at processing multi-step problem-solving and massive long-context workflows, delivering up to a 10x
+reduction in cost per token compared to Blackwell.","NVIDIA reported operating income of $32,972 million in fiscal year 2024.",1,0.2,0.888,0,"['NVIDIA reported operating income of $32,972 million in fiscal year 2024.']","The claim about NVIDIA's operating income for fiscal year 2024 is incorrect; the provided context states that the operating income for fiscal year 2024 was $32,972 million, but the answer does not accurately reflect this information."
+UC:3.6,4,What percentage of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024?,"(2)
+In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe.
+Revenue from sales to customers headquartered outside of the United States accounted for 31%, 41%, and 48% of total revenue for fiscal years 2026, 2025,
+and 2024, respectively. The increase in revenue to the United States for fiscal years 2026 and 2025 was primarily due to higher U.S.-based Compute &
+Networking segment demand.. different from our customers' headquarters location. Revenue from sales to customers headquartered outside of the United States accounted for 31% and 41%
+of total revenue for fiscal years 2026 and 2025, respectively.
+Gross Profit and Gross Margin
+Gross profit consists of total net revenue less cost of revenue. Cost of revenue consists of the cost of semiconductors, including wafer fabrication, assembly,
+testing and packaging, board and device costs, manufacturing support costs, including labor and overhead associated with such purchases, final test yield. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+We recognized revenue of $974 million and $729 million in fiscal years 2026 and 2025, respectively, that were included in the prior year end deferred revenue
+balance.
+As of January 25, 2026, revenue related to remaining performance obligations from contracts greater than one year in length was $2.3 billion, which includes
+$1.9 billion from deferred revenue and $390 million which has not yet been billed nor recognized as revenue. Approximately 42% of revenue from contracts. $
+128,528    $
+109,433    $
+88,523 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+No sales to an individual customer or country other than the United States accounted for more than 10% of revenue for fiscal years 2025, 
+2024, or 2023. Revenue, classified by the major geographic areas in which our customers were located, was as follows:
+ 
+(In millions)
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Year Ended June 30,
+ 
+2025  
+2024  
+2023 
+ 
+ 
+ 
+ 
+United States 
+ $
+144,546  $
+124,704  $
+106,744 
+Other countries
+  
+137,178   
+120,418   
+105,171 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+  
+Total
+ $
+281,724  $
+245,122  $
+211,915. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Income
+(In millions, except per share data)
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+Cost of revenue
+62,475 
+32,639 
+16,621 
+Gross profit
+153,463 
+97,858 
+44,301 
+Operating expenses
+Research and development
+18,497 
+12,914 
+8,675 
+Sales, general and administrative
+4,579 
+3,491 
+2,654 
+Total operating expenses
+23,076 
+16,405 
+11,329 
+Operating income
+130,387 
+81,453 
+32,972 
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259)
+(247)
+(257)
+Other income, net
+9,022. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The following table summarizes revenue by specialized markets:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue by End Market:
+(In millions)
+Data Center
+$
+193,737 
+$
+115,186 
+$
+47,525 
+Compute
+162,361 
+102,196 
+38,950 
+Networking
+31,376 
+12,990 
+8,575 
+Gaming
+16,042 
+11,350 
+10,447 
+Professional Visualization
+3,191 
+1,878 
+1,553 
+Automotive
+2,349 
+1,694 
+1,091 
+OEM and Other
+619 
+389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). us to record impairment charges.
+International sales and operations are a significant part of our business, which exposes us to risks that could harm our business.
+We sell our products internationally, and we also have operations and conduct business internationally. Our semiconductor wafers are manufactured,
+assembled, tested and packaged by third parties located outside of the United States, and we generated 31% of our revenue in fiscal year 2026 from sales. Gaming in the first quarter of fiscal 2027 and beyond.
+Professional Visualization revenue for fiscal year 2026 was up 70% from a year ago, driven by exceptional demand for Blackwell as well as the launch of our
+new DGX Spark.
+Automotive revenue for fiscal year 2026 was up 39% from a year ago, driven by continued adoption of our self-driving platforms.
+Gross margin decreased in fiscal year 2026 as our business model transitioned from offering Hopper HGX systems to Blackwell full-scale datacenter solutions.. reverse in part the dismissal of the case, which NVIDIA had filed on October 10, 2023. On December 5, 2023, the Ninth Circuit granted NVIDIA’s motion to stay
+the mandate pending NVIDIA’s petition for a writ of certiorari in the Supreme Court of the United States and the Supreme Court’s final disposition of the matter.
+NVIDIA filed a petition for a writ of certiorari on March 4, 2024. On June 17, 2024, the Supreme Court of the United States granted NVIDIA’s petition for a writ of",I don't know.,0,0.2,0.086,0,[],The answer does not provide any factual claims that can be traced back to the context.
+UC:3.6,5,"What were NVIDIA total long-lived assets as of January 25, 2026?","Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Balance Sheets
+(In millions, except par value)
+ 
+Jan 25, 2026
+Jan 26, 2025
+Assets
+ 
+ 
+Current assets:
+ 
+ 
+Cash and cash equivalents
+$
+10,605 
+$
+8,589 
+Marketable securities
+51,951 
+34,621 
+Accounts receivable, net
+38,466 
+23,065 
+Inventories
+21,403 
+10,080 
+Prepaid expenses and other current assets
+3,180 
+3,771 
+Total current assets
+125,605 
+80,126 
+Property and equipment, net
+10,383 
+6,283 
+Operating lease assets
+2,867 
+1,793 
+Goodwill
+20,832 
+5,188 
+Intangible assets, net
+3,306 
+807 
+Deferred income tax assets
+13,258 
+10,979. Total long-lived assets
+$
+10,383 
+$
+6,283 
+Note 17 - Leases
+Our lease obligations primarily consist of operating leases for our offices and data centers, with lease periods expiring between fiscal years 2027 and 2041.
+Future minimum lease obligations under our non-cancelable lease agreements as of January 25, 2026 were as follows:
+Operating Lease Obligations
+ 
+(In millions)
+Fiscal Year:
+ 
+2027
+$
+493 
+2028
+485 
+2029
+457 
+2030
+381 
+2031
+314 
+2032 and thereafter
+1,494 
+Total
+3,624 
+Less imputed interest
+680 
+Present value of net future minimum lease payments
+2,944. 389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+The following table presents summarized information for long-lived assets by country. Long-lived assets consist of property and equipment and exclude other
+assets, operating lease assets, goodwill, and intangible assets.
+ 
+Jan 25, 2026
+Jan 26, 2025
+Long-lived assets:
+(In millions)
+United States
+$
+5,125 
+$
+3,626 
+Taiwan
+3,219 
+1,481 
+Israel
+1,471 
+840 
+Other
+568 
+336 
+Total long-lived assets
+$
+10,383 
+$
+6,283 
+Note 17 - Leases. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Cash Flows
+(In millions)
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Cash flows from operating activities:
+ 
+ 
+Net income
+$
+120,067 
+$
+72,880 
+$
+29,760 
+Adjustments to reconcile net income to net cash provided by operating activities:
+Stock-based compensation expense
+6,386 
+4,737 
+3,549 
+Depreciation and amortization
+2,843 
+1,864 
+1,508 
+Gains on non-marketable equity securities and publicly-held equity securities, net
+(8,918)
+(1,030)
+(238)
+Deferred income taxes
+(1,424)
+(4,477)
+(2,489)
+Other
+(287)
+(502). EXHIBIT 21.1
+SUBSIDIARIES OF REGISTRANT
+The following is a list of subsidiaries of NVIDIA Corporation as of January 25, 2026, omitting subsidiaries which, considered in the aggregate,
+would not constitute a significant subsidiary.
+Subsidiaries of Registrant (All 100% owned)
+State or Other Jurisdiction of Incorporation
+Mellanox Technologies, Ltd
+Israel
+NVIDIA International, Inc.
+Delaware, U.S.
+NVIDIA Singapore Pte Ltd
+Singapore. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The following table summarizes revenue by specialized markets:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue by End Market:
+(In millions)
+Data Center
+$
+193,737 
+$
+115,186 
+$
+47,525 
+Compute
+162,361 
+102,196 
+38,950 
+Networking
+31,376 
+12,990 
+8,575 
+Gaming
+16,042 
+11,350 
+10,447 
+Professional Visualization
+3,191 
+1,878 
+1,553 
+Automotive
+2,349 
+1,694 
+1,091 
+OEM and Other
+619 
+389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922. Table of Contents
+Report of Independent Registered Public Accounting Firm
+To the Board of Directors and Shareholders of NVIDIA Corporation
+Opinions on the Financial Statements and Internal Control over Financial Reporting
+We have audited the accompanying consolidated balance sheets of NVIDIA Corporation and its subsidiaries (the “Company”) as of January 25, 2026 and
+January 26, 2025, and the related consolidated statements of income, comprehensive income, shareholders' equity, and cash flows for each of the three years in. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+(B)
+The estimated useful lives of our buildings are up to thirty years. Leasehold improvements and finance leases are amortized based on the lesser of either the asset’s estimated useful life or the
+expected remaining lease term.
+(C)
+Construction in process represents assets that are not available for their intended use.
+Depreciation expense for fiscal years 2026, 2025, and 2024 was $2.4 billion, $1.3 billion, and $894 million, respectively.. Accumulated amortization of leasehold improvements and finance leases was $519 million and $410 million as of January 25, 2026 and January 26, 2025,
+respectively.
+Property, equipment and intangible assets acquired but not paid for during fiscal years 2026, 2025, and 2024 were $820 million, $525 million, and $170 million,
+respectively.
+ 
+Jan 25, 2026
+Jan 26, 2025
+Accrued and Other Current Liabilities:
+(In millions)
+Customer program accruals
+$
+5,318 
+$
+4,880 
+Accrued purchase consideration
+3,921 
+9 
+Product warranty
+2,807 
+1,290 
+Excess inventory purchase obligations (1)
+2,739 
+2,095. including capital gains. To the extent realization of the deferred tax assets becomes more-likely-than-not, we would recognize such deferred tax assets as
+income tax benefits during the period.
+As of January 25, 2026, based on recent jurisdictional taxable income and expected future earnings, we concluded certain state deferred tax assets are more
+likely than not realizable and released $711 million of valuation allowance.
+As of January 25, 2026, we had U.S. federal, state and foreign net operating loss carryforwards of $747 million, $427 million and $503 million, respectively. The","Total long-lived assets for NVIDIA as of January 25, 2026, were $10,383 million.",1,0.3,0.884,1,[],"The claim about total long-lived assets for NVIDIA as of January 25, 2026, being $10,383 million is directly supported by the context."
+UC:3.6,6,What segments does NVIDIA report in its segment information?,"digital twin applications. NVIDIA is now a data center scale AI infrastructure company reshaping all industries.
+Our two operating segments are ""Compute & Networking"" and ""Graphics."" Refer to Note 16 of the Notes to the Consolidated Financial Statements in Part IV,
+Item 15 of this Annual Report on Form 10-K for additional information.
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+Recent Developments, Future Objectives and Challenges. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+CODM reviews expenses on a consolidated basis, and expenses attributable to each segment are not regularly provided to our CODM.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive
+platforms and autonomous and electric vehicle solutions including software.
+The Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.. market for our workstation-class GPUs, as more enterprise customers develop and deploy AI applications with their data on-premises.
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+Our Businesses
+We report our business results in two segments.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive
+platforms and autonomous and electric vehicle solutions including software.. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+•
+Level 3: Unobservable inputs in which there is little or no market data that are significant to the fair value of the assets or liabilities.
+Concentration of Credit Risk
+Financial instruments that potentially subject us to concentrations of credit risk consist primarily of cash equivalents, marketable securities, lease guarantees,. EXHIBIT 31.2
+ 
+CERTIFICATION
+I, Colette M. Kress, certify that:
+1.  I have reviewed this Annual Report on Form 10-K of NVIDIA Corporation;
+2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to
+make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period
+covered by this report;
+3.  Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects. EXHIBIT 31.1
+CERTIFICATION
+I, Jen-Hsun Huang, certify that:
+1.  I have reviewed this Annual Report on Form 10-K of NVIDIA Corporation;
+2.  Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to
+make the statements made, in light of the circumstances under which such statements were made, not misleading with respect to the period
+covered by this report;
+3.  Based on my knowledge, the financial statements, and other financial information included in this report, fairly present in all material respects. information available to us as of the filing date of this Annual Report on Form 10-K, and while we believe such information forms a reasonable basis for such
+statements, such information may be limited or incomplete, and our statements should not be read to indicate that we have conducted an exhaustive inquiry into,
+or review of, all potentially available relevant information. These statements are inherently uncertain, and investors are cautioned not to unduly rely upon these
+statements.
+© 2026 NVIDIA Corporation. All rights reserved.
+3. Additional information on our operating segments and geographic and product information is contained in Note 18 – Segment Information 
+and Geographic Data of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K).
+Our reportable segments are described below.
+Productivity and Business Processes
+Our Productivity and Business Processes segment consists of products and services in our portfolio of productivity, communication, and 
+information services, spanning a variety of devices and platforms. This segment primarily comprises:
+•. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The following table summarizes revenue by specialized markets:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue by End Market:
+(In millions)
+Data Center
+$
+193,737 
+$
+115,186 
+$
+47,525 
+Compute
+162,361 
+102,196 
+38,950 
+Networking
+31,376 
+12,990 
+8,575 
+Gaming
+16,042 
+11,350 
+10,447 
+Professional Visualization
+3,191 
+1,878 
+1,553 
+Automotive
+2,349 
+1,694 
+1,091 
+OEM and Other
+619 
+389 
+306 
+Total revenue
+$
+215,938 
+$
+130,497 
+$
+60,922","NVIDIA reports its business results in two segments: ""Compute & Networking"" and ""Graphics.""",1,0.5,0.698,1,[],"The claim in the answer is fully supported by the context, which states that NVIDIA reports its business results in two segments: 'Compute & Networking' and 'Graphics.'"
+UC:3.6,7,What does NVIDIA include in its Compute & Networking segment?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+CODM reviews expenses on a consolidated basis, and expenses attributable to each segment are not regularly provided to our CODM.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive
+platforms and autonomous and electric vehicle solutions including software.
+The Graphics segment includes GeForce GPUs for gaming and PCs, and Quadro/NVIDIA RTX GPUs for enterprise workstation graphics.. market for our workstation-class GPUs, as more enterprise customers develop and deploy AI applications with their data on-premises.
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+Our Businesses
+We report our business results in two segments.
+The Compute & Networking segment includes our Data Center accelerated computing and networking platforms and AI solutions and software, and Automotive
+platforms and autonomous and electric vehicle solutions including software.. digital twin applications. NVIDIA is now a data center scale AI infrastructure company reshaping all industries.
+Our two operating segments are ""Compute & Networking"" and ""Graphics."" Refer to Note 16 of the Notes to the Consolidated Financial Statements in Part IV,
+Item 15 of this Annual Report on Form 10-K for additional information.
+Headquartered in Santa Clara, California, NVIDIA was incorporated in California in April 1993 and reincorporated in Delaware in April 1998.
+Recent Developments, Future Objectives and Challenges. Data Center
+The NVIDIA Data Center platform is focused on accelerating compute-intensive workloads, such as AI, data processing, graphics, robotics, and scientific
+computing, delivering superior total cost of ownership relative to conventional CPU-only approaches. It is deployed in cloud, hyperscale, on-premises and edge
+data centers. The platform consists of data center compute and networking infrastructure offerings typically delivered to customers as rack-scale systems,
+subsystems, or modules, along with software and services.. of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.
+78. Revenue
+$
+47,405 
+$
+13,517 
+$
+60,922 
+Other segment items (1)
+15,389 
+7,671 
+23,060 
+Operating income
+$
+32,016 
+$
+5,846 
+$
+37,862 
+(1)
+Other segment items primarily include product costs and inventory provisions, compensation and benefits excluding stock-based compensation expense, computing infrastructure expenses, and
+engineering development costs.
+Depreciation and amortization expense attributable to our Compute & Networking segment for fiscal years 2026, 2025, and 2024 was $1.6 billion, $732 million,. of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.
+Indirect Customers – Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product
+specifications, internal sales data, and other sources. Indirect customers primarily purchase our products through system integrators and distributors. We. Table of Contents
+ODMs, system integrators and distributors which we partner with to help bring our products to market. We also have partnerships in automotive, healthcare,
+financial services, manufacturing, retail, and technology among others, to accelerate the adoption of AI.
+At the foundation of the NVIDIA accelerated computing platform are our GPUs, which excel at parallel workloads such as the training and inferencing of neural
+networks. These Data Center systems are extreme co-designed with the GPU, CPU, NVLink switch, DPU, NIC, and scale-out networking along with software. Reportable segment operating income – The year over year increase in Compute & Networking segment operating income was driven by growth in revenue,
+partially offset by a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026. The year over year
+increase in Graphics segment operating income was driven by the growth in revenue.
+40. Certain expenses are not allocated to either Compute & Networking or Graphics for purposes of making operating decisions or assessing financial performance.
+The expenses include stock-based compensation expense, corporate infrastructure and support costs, acquisition-related and other costs, and other non-
+recurring charges and benefits that our CODM deems to be enterprise in nature.
+Our CODM does not review any information regarding total assets on a reportable segment basis. There are no intersegment transactions. The accounting","The Compute & Networking segment includes NVIDIA's Data Center accelerated computing and networking platforms, AI solutions and software, and Automotive platforms and autonomous and electric vehicle solutions including software.",1,0.3,0.81,1,[],All factual claims in the answer are directly supported by the context.
+UC:3.6,8,How much depreciation expense did NVIDIA report in fiscal year 2024?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+(B)
+The estimated useful lives of our buildings are up to thirty years. Leasehold improvements and finance leases are amortized based on the lesser of either the asset’s estimated useful life or the
+expected remaining lease term.
+(C)
+Construction in process represents assets that are not available for their intended use.
+Depreciation expense for fiscal years 2026, 2025, and 2024 was $2.4 billion, $1.3 billion, and $894 million, respectively.. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21% to income before income taxes for fiscal
+years ended January 26, 2025 and January 28, 2024 as follows:
+Year Ended
+Jan 26, 2025
+Jan 28, 2024
+(In millions, except percentages)
+Tax expense computed at federal statutory rate
+$
+17,645 
+21.0 %
+$
+7,102 
+21.0 %
+Expense (benefit) resulting from:
+State income taxes, net of federal tax effect
+554 
+0.7 %
+120 
+0.4 %. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+A reconciliation of segment operating income to consolidated income before income tax for fiscal years 2026, 2025, and 2024 were as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+(In millions)
+Segment operating income
+$
+139,297 
+$
+87,960 
+$
+37,862 
+Stock-based compensation expense
+(6,386)
+(4,737)
+(3,549)
+Unallocated operating expenses
+(1,997)
+(1,171)
+(728)
+Acquisition-related and other costs
+(527)
+(599)
+(613)
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259). Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+Income before income tax consists of the following:
+ 
+Year Ended
+ 
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+ 
+(In millions)
+U.S.
+$
+123,181 
+$
+77,456 
+$
+29,495 
+Foreign
+18,269 
+6,570 
+4,323 
+Income before income tax
+$
+141,450 
+$
+84,026 
+$
+33,818 
+The income tax expense (benefit) differs from the amount computed by applying the U.S. federal statutory rate of 21.0% to income before income taxes for the
+fiscal year ended January 25, 2026 as follows:
+ 
+Year Ended
+ 
+Jan 25, 2026. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Consolidated Statements of Income
+(In millions, except per share data)
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+Revenue
+$
+215,938 
+$
+130,497 
+$
+60,922 
+Cost of revenue
+62,475 
+32,639 
+16,621 
+Gross profit
+153,463 
+97,858 
+44,301 
+Operating expenses
+Research and development
+18,497 
+12,914 
+8,675 
+Sales, general and administrative
+4,579 
+3,491 
+2,654 
+Total operating expenses
+23,076 
+16,405 
+11,329 
+Operating income
+130,387 
+81,453 
+32,972 
+Interest income
+2,300 
+1,786 
+866 
+Interest expense
+(259)
+(247)
+(257)
+Other income, net
+9,022. Land
+ $
+9,338  $
+8,163 
+Buildings and improvements
+  
+137,921   
+93,943 
+Leasehold improvements
+  
+12,117   
+9,594 
+Computer equipment and software
+  
+132,836   
+93,780 
+Furniture and equipment
+  
+6,407   
+6,532 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Total, at cost
+  
+298,619   
+212,012 
+Accumulated depreciation
+  
+(93,653)   
+(76,421)
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+  
+Total, net
+ $
+204,966  $
+135,591 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+During fiscal years 2025, 2024, and 2023, depreciation expense was $22.0 billion, $15.2 billion, and $11.0 billion, respectively.. intangible low-taxed income effective tax rate of 14% effective fiscal year 2027 for Microsoft. It also provides bonus depreciation for certain 
+assets placed into service after January 19, 2025 and an election to expense U.S. incurred research or experimental expenditures.
+Uncertain Tax Positions
+We remain under audit by the IRS for tax years 2014 to 2017. With respect to the audit for tax years 2004 to 2013, on September 26, 2023, 
+we received Notices of Proposed Adjustment (“NOPAs”) from the IRS. The primary issues in the NOPAs relate to intercompany transfer. (1,475)
+(1.0)%
+Other
+29 
+— %
+Other (2)
+(133)
+(0.1)%
+Income tax expense
+$
+21,383 
+15.1 %
+(1) State taxes in California, Tennessee, Arizona, and Illinois made up the majority of the tax effect in fiscal year 2026.
+(2) Includes the tax effects of enactment of new tax laws, change in valuation allowance, and change in unrecognized tax benefits.
+73. market leading performance and efficiency. Offered in a number of configurations, for customers across industries and a diverse set of AI and accelerated
+computing use cases. In fiscal year 2026, we unveiled the NVIDIA Rubin platform, which is expected to commence production shipments in the second half of
+fiscal year 2027. Built for agentic AI and reasoning, it excels at processing multi-step problem-solving and massive long-context workflows, delivering up to a 10x
+reduction in cost per token compared to Blackwell.. enter into an investment and partnership agreement with OpenAI or that a transaction will be completed. Refer to Item 1A. Risk Factors for additional information
+regarding our investments.
+During fiscal year 2026 and fiscal year 2025, we spent $6.1 billion and $3.4  billion on capital expenditures, respectively. We expect to increase capital
+expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business.",NVIDIA reported a depreciation expense of $894 million in fiscal year 2024.,1,0.2,0.904,1,[],The claim about NVIDIA's depreciation expense of $894 million in fiscal year 2024 is directly supported by the context provided.
+UC:3.6,9,What are NVIDIA future operating lease obligations for fiscal year 2027?,"Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+Operating lease costs for fiscal years 2026, 2025, and 2024 were $462 million, $356 million, and $269 million, respectively. Short-term and variable lease costs
+for fiscal years 2026, 2025, and 2024 were not significant.
+Other information related to leases was as follows:
+Year Ended
+Jan 25, 2026
+Jan 26, 2025
+Jan 28, 2024
+ 
+(In millions)
+Supplemental cash flows information
+ 
+Operating cash flow used for operating leases
+$
+428 
+$
+313 
+$
+286. Total long-lived assets
+$
+10,383 
+$
+6,283 
+Note 17 - Leases
+Our lease obligations primarily consist of operating leases for our offices and data centers, with lease periods expiring between fiscal years 2027 and 2041.
+Future minimum lease obligations under our non-cancelable lease agreements as of January 25, 2026 were as follows:
+Operating Lease Obligations
+ 
+(In millions)
+Fiscal Year:
+ 
+2027
+$
+493 
+2028
+485 
+2029
+457 
+2030
+381 
+2031
+314 
+2032 and thereafter
+1,494 
+Total
+3,624 
+Less imputed interest
+680 
+Present value of net future minimum lease payments
+2,944. Present value of net future minimum lease payments
+2,944 
+Less short-term operating lease liabilities
+372 
+Long-term operating lease liabilities
+$
+2,572 
+Between fiscal years 2027 and 2030, we expect to commence leases with future obligations of $22.7 billion, primarily data center leases to support our research
+and development efforts, with lease terms of 1.8 to 20 years.
+79. Table of Contents
+NVIDIA Corporation and Subsidiaries
+Notes to the Consolidated Financial Statements
+(Continued)
+(B)
+The estimated useful lives of our buildings are up to thirty years. Leasehold improvements and finance leases are amortized based on the lesser of either the asset’s estimated useful life or the
+expected remaining lease term.
+(C)
+Construction in process represents assets that are not available for their intended use.
+Depreciation expense for fiscal years 2026, 2025, and 2024 was $2.4 billion, $1.3 billion, and $894 million, respectively.. 2028
+   
+3,495     
+5,187 
+2029
+  
+2,419   
+4,521 
+2030
+  
+2,017   
+4,382 
+Thereafter
+  
+6,202   
+36,251 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+  
+Total lease payments
+  
+25,481   
+60,506 
+Less imputed interest
+  
+(2,620)   
+(14,334)
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+  
+ 
+ 
+  
+Total
+ $
+22,861   $
+46,172 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+As of June 30, 2025, we had additional leases, primarily for datacenters, that had not yet commenced of $92.7 billion. These leases will 
+commence between fiscal year 2026 and fiscal year 2031 with lease terms of 1 year to 20 years.
+NOTE 14 — CONTINGENCIES. $
+428 
+$
+313 
+$
+286 
+Operating lease assets obtained in exchange for lease
+obligations
+$
+1,439 
+$
+877 
+$
+531 
+As of January 25, 2026, our operating leases have a weighted average remaining lease term of 8.8 years and a weighted average discount rate of 4.38%. As of
+January 26, 2025, our operating leases had a weighted average remaining lease term of 6.5 years and a weighted average discount rate of 4.16%.
+80. Blackwell full-scale datacenter solutions and a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal
+year 2026.
+Provisions for inventory and excess inventory purchase obligations totaled $7.2 billion and $3.7 billion for fiscal years 2026 and 2025, respectively, including $4.5
+billion associated with H20 excess inventory and purchase obligations for the first quarter of fiscal year 2026. Sales of previously reserved inventory and. Reportable segment operating income – The year over year increase in Compute & Networking segment operating income was driven by growth in revenue,
+partially offset by a $4.5 billion charge associated with H20 excess inventory and purchase obligations in the first quarter of fiscal year 2026. The year over year
+increase in Graphics segment operating income was driven by the growth in revenue.
+40. enter into an investment and partnership agreement with OpenAI or that a transaction will be completed. Refer to Item 1A. Risk Factors for additional information
+regarding our investments.
+During fiscal year 2026 and fiscal year 2025, we spent $6.1 billion and $3.4  billion on capital expenditures, respectively. We expect to increase capital
+expenditures in fiscal year 2027 relative to fiscal year 2026 to support the future growth of our business.. Leases
+We determine if an arrangement is or contains a lease at inception. Operating leases with lease terms of more than 12 months are included in operating lease
+assets, accrued and other current liabilities, and long-term operating lease liabilities on our consolidated balance sheet. Operating lease assets represent our
+right to use an underlying asset for the lease term and lease liabilities represent our obligation to make lease payments over the lease term. We combine lease
+and non-lease components for offices and data centers in determining the operating lease assets and liabilities.",NVIDIA's future operating lease obligations for fiscal year 2027 are $493 million.,1,0.2,0.873,1,[],The claim about NVIDIA's future operating lease obligations for fiscal year 2027 being $493 million is directly supported by the context.
+UC:3.6,10,How does NVIDIA define direct customers versus indirect customers?,"Networking segment demand.
+We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and
+system integrators. Certain direct customers may use either internal resources or third-party system integrators to complete their build. We refer to indirect
+customers as those who purchase products through our direct customers; indirect customers include CSPs, Neocloud builders, AI model makers, enterprises,. Table of Contents
+Concentration of Revenue
+We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and
+system integrators. Certain direct customers may use either internal resources or third-party system integrators to complete their build. We refer to indirect
+customers as those who purchase products through our direct customers; indirect customers include CSPs, Neocloud builders, AI model makers, enterprises,. of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.
+Indirect Customers – Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product
+specifications, internal sales data, and other sources. Indirect customers primarily purchase our products through system integrators and distributors. We. of $176 million and $105 million on securities held as of January 25, 2026 and January 26, 2025, respectively.
+Note 9 - Balance Sheet Components
+We refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and
+system integrators. Certain direct customers may use either internal resources or third-party system integrators to complete their build. Three direct customers. purchasing patterns. Many of our indirect customers often do not purchase directly from us but through multiple OEMs, ODMs, system integrators, distributors,
+and other channel partners. We generate a significant amount of our revenue from a limited number of indirect customers, and we estimate some individually
+representing 10% or more of our revenue. If end demand increases or our finished goods supply availability is concentrated near a quarter end, the system. and public sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue.
+Direct Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14%
+of total revenue, all of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2025, sales to one direct customer represented 12% of total revenue and sales to two direct customers each represented 11% of total revenue, all. generate a significant amount of our revenue from a limited number of indirect customers, some individually representing 10% or more of our revenue. Certain
+companies purchase cloud and related services through various direct and indirect customers. We estimate that one AI research and deployment company
+contributed to a meaningful amount of our revenue purchasing cloud services from our customers in fiscal year 2026.
+Revenue by geographic region is designated based on the location of the headquarters of direct customers. The end customer and shipping location may be. contract is distinct. Except for License and Development Arrangements, NVIDIA products and services function on a standalone basis and do not require a
+significant amount of integration or interdependency. Therefore, multiple performance obligations contained within a customer contract are considered distinct
+and are not combined for revenue recognition purposes.
+We allocate the total transaction price to each distinct performance obligation in an arrangement with multiple performance obligations on a relative standalone. represent monies paid to our partners that are earmarked for market segment development and are designed to support our partners’ activities while also
+promoting NVIDIA products. We account for customer programs as a reduction to revenue and accrue for such programs for potential rebates and MDFs based
+on the amount we expect to be claimed by customers.
+56. geopolitical developments, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and
+quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our
+investments, revenue and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our
+supply chain, we continuously manage product availability and costs with our vendors.","NVIDIA defines direct customers as those who purchase products directly from NVIDIA, including AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Indirect customers are those who purchase products through direct customers, which include CSPs, Neocloud builders, AI model makers, and enterprises.",1,0.5,0.862,1,[],All factual claims in the answer are directly supported by the context provided.
+UC:3.6,11,What strategic and competitive risks does Microsoft disclose in its risk factors?,"PART I
+Item 1A
+ 
+16
+ITEM 1A. RISK FACTORS
+Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely 
+affect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock.
+STRATEGIC AND COMPETITIVE RISKS
+We face intense competition across all markets for our products and services, which could adversely affect our results of 
+operations.
+Competition in the technology sector. factors. 
+•
+Our business is exposed to the burden and risks associated with litigation, investigations, and regulatory proceedings. 
+•
+Delaware law, provisions in our governing documents and our agreement with Microsoft could delay or prevent a change in control. 
+13. Table of Contents
+Risk Factors
+Risks Related to Our Industry and Markets
+Failure to meet the evolving needs of our industry and markets may adversely impact our financial results.
+Our accelerated computing platforms experience rapid changes in technology, customer requirements, competitive products, and industry standards.
+Our success depends on our ability to:
+•
+timely identify industry changes, adapt our strategies, and develop new or enhance and maintain existing products and technologies that meet the. we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address 
+the changing demands of customers and users, industry trends, and competitive forces.
+Microsoft and OpenAI maintain a long-term strategic partnership originally established in 2019. Microsoft is a major investor in OpenAI, and 
+the companies have reciprocal revenue-sharing arrangements. We hold rights to OpenAI’s intellectual property, including models and. presently known to us or that we currently believe are immaterial may also harm our business, financial condition, results of operations or reputation.
+Risk Factors Summary
+Risks Related to Our Industry and Markets
+•
+Failure to meet the evolving needs of our industry and markets may adversely impact our financial results.
+•
+Competition could adversely impact our market share and financial results.
+Risks Related to Demand, Supply, and Manufacturing
+•. PART I
+Item 1A
+ 
+23
+Issues in the development, deployment, and use of AI may result in reputational or competitive harm or liability. We are building AI 
+into many of our offerings, including our productivity services, and we are also making AI available for our customers to use in solutions that 
+they build. This AI may be developed by Microsoft or others, including our strategic partner, OpenAI. We expect these elements of our 
+business to grow. We envision a future in which AI operating in devices, applications, and the cloud helps our customers be more productive. regulations, cybersecurity, environmental, health and safety requirements, the responsible use of AI, climate change, cryptocurrency, and consumer laws, could
+further increase our costs, impact our competitive position, and otherwise may have a material adverse impact on our business, financial condition and results of
+operations in subsequent periods. Refer to “Item 1A. Risk Factors” for a discussion of these potential impacts.
+Human Capital Management. with OpenAI or that a transaction will be completed.
+Our investment portfolio contains industry sector concentration risks, and a decline in any one or multiple industry sectors could increase our impairment losses.
+We face additional risks related to acquisitions and strategic investments, including the diversion of capital and other resources, including management’s
+attention; difficulty in realizing a satisfactory return and uncertainties to realize the benefits of an acquisition or strategic investment, if at all; difficulty or inability in. We are committed to managing the most significant risks to our strategies and ambitions, including cybersecurity risks. The Enterprise Risk 
+Management (“ERM”) organization supports management in this commitment by facilitating the semiannual risk assessment, which 
+documents the priority and status of these risks and aligns them with our strategic mitigation efforts. ERM is structured using a framework 
+based on the Committee of Sponsoring Organization (“COSO”) guidance on Enterprise Risk Management Integrating Strategy with. The increasing focus on the risks and strategic importance of AI technologies has resulted in regulatory restrictions that target products and services capable of
+enabling or facilitating AI and may in the future result in additional restrictions impacting some or all of our product and service offerings.
+Concerns regarding third-party use of AI for purposes contrary to local governmental interests, including concerns relating to the misuse of AI applications,","Microsoft discloses the following strategic and competitive risks in its risk factors:
+
+1. Intense competition across all markets for its products and services, which could adversely affect its results of operations.
+2. Exposure to the burden and risks associated with litigation, investigations, and regulatory proceedings.
+3. Delaware law, provisions in its governing documents, and its agreement with Microsoft could delay or prevent a change in control.
+4. Failure to meet the evolving needs of its industry and markets may adversely impact financial results.
+5. Rapid changes in technology, customer requirements, competitive products, and industry standards affecting its accelerated computing platforms.
+6. Competition could adversely impact market share and financial results.",1,0.3,0.903,1,[],All claims made in the answer are directly supported by the context provided.
+UC:3.6,12,How does Microsoft describe competition in the technology sector?,"operations.
+Competition in the technology sector
+Our competitors range in size from diversified global companies with significant research and development resources to small, specialized 
+firms whose narrower product lines may let them be more effective in deploying technical, marketing, and financial resources. Barriers to
+entry in many of our businesses are low and many of the areas in which we compete evolve rapidly with changing and disruptive 
+technologies, shifting user needs, and frequent introductions of new products and services. If we do not continue to innovate and provide. Competition
+The market for our products is intensely competitive and is characterized by rapid technological change and evolving industry standards. We believe that the
+principal competitive factors in this market are performance, breadth of product offerings, access to customers and partners and distribution channels, software
+support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs. We believe that our ability to remain. have both on-premises or in the cloud.
+Windows faces competition from various software products and from alternative platforms and devices. Microsoft Defender for Endpoint 
+competes with endpoint security solution providers. 
+Our Enterprise Mobility + Security offerings compete with products from a range of competitors including identity vendors, security solution 
+vendors, and numerous other security point solution vendors.
+LinkedIn faces competition from online professional networks; recruiting, talent management, and human resource services companies; job. •
+Windows OEM and Devices revenue increased 3%.
+•
+Xbox content and services revenue increased 16%.
+•
+Search and news advertising revenue excluding traffic acquisition costs increased 20%.
+Industry Trends and Opportunities
+Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an 
+opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft,. Network, and Learning Experience, assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop 
+solutions, and Nuance conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT 
+professionals on various Microsoft products.
+Competition
+Azure faces diverse competition from cloud service providers and open source offerings. Azure’s competitive advantage includes enabling a. PART I
+Item 1A
+ 
+16
+ITEM 1A. RISK FACTORS
+Our operations and financial results are subject to various risks and uncertainties, including those described below, that could adversely 
+affect our business, operations, financial condition, results of operations, liquidity, and the trading price of our common stock.
+STRATEGIC AND COMPETITIVE RISKS
+We face intense competition across all markets for our products and services, which could adversely affect our results of 
+operations.
+Competition in the technology sector. effectively by giving customers choice, value, flexibility, security, an easy-to-use interface, and compatibility with a broad range of hardware 
+and software applications, including those that enable productivity. 
+Devices face competition from various computer, tablet, and hardware manufacturers who offer a unique combination of high-quality 
+industrial design and innovative technologies across various price points. Many of these manufacturers are also current or potential partners 
+and customers, including our Windows OEMs.. Authority collected information from us regarding our business and competition in the graphics card and CSP market as part of an ongoing inquiry into
+competition in those markets. We have also received, and continue to receive, broad requests for information from competition regulators in the European Union,
+the United States, the United Kingdom, China, and South Korea regarding our sales of GPUs and other NVIDIA products, our efforts to allocate supply,. business models and operations, increased costs, reputational damage, and civil or criminal liability. Examples include laws and regulations 
+regarding: 
+•
+Competition laws and new market regulation: Government agencies closely scrutinize us under U.S. and foreign competition 
+laws. Governments are actively enforcing competition laws and regulations and enacting new regulations to intervene in digital 
+markets, and this includes markets such as the EU, the United Kingdom, the U.S., and China. Some jurisdictions also allow. AWS Well-Architected Framework
+Framework
+• We think about architecture as being how components work together in a workload. How 
+components communicate and interact is often the focus of architecture diagrams.
+• Milestones mark key changes in your architecture as it evolves throughout the product lifecycle 
+(design, implementation, testing, go live, and in production).
+• Within an organization the technology portfolio is the collection of workloads that are required 
+for the business to operate.
+• The level of eﬀort is categorizing the amount of time, eﬀort, and complexity a task requires for","Microsoft describes competition in the technology sector as intense and characterized by rapid technological change and evolving industry standards. They note that their competitors range from diversified global companies with significant research and development resources to small, specialized firms. The market is competitive due to low barriers to entry, rapidly evolving technologies, shifting user needs, and frequent introductions of new products and services. Principal competitive factors include performance, breadth of product offerings, access to customers and partners, distribution channels, software support, conformity to industry standard APIs, manufacturing capabilities, processor pricing, and total system costs.",1,0.5,0.802,1,[],All factual claims in the answer are directly supported by the context provided.
+UC:3.6,13,What products are included in Microsoft Intelligent Cloud segment?,"PART II
+Item 8
+ 
+83
+Intelligent Cloud
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and 
+developers. This segment primarily comprises:
+•
+Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based 
+services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services; and 
+Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses. amounts are included in Microsoft 365 Commercial products and cloud services, Server products and cloud services, LinkedIn, and 
+Dynamics products and cloud services in the table above.
+Assets are not allocated to segments for internal reporting presentations. A portion of amortization and depreciation is included with various 
+other costs in an overhead allocation to each segment. It is impracticable for us to separately identify the amount of amortization and 
+depreciation by segment that is included in the measure of segment profit or loss.. boards; companies that provide learning and development products and services; online and offline outlets that generate revenue from 
+advertisers and marketers; and online and offline outlets for companies with lead generation and customer intelligence and insights.
+Dynamics competes with cloud-based and on-premises business solution providers.
+Intelligent Cloud
+Our Intelligent Cloud segment consists of our public, private, and hybrid server products and cloud services that power modern business and 
+developers. This segment primarily comprises:
+•. developers. This segment primarily comprises:
+•
+Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based 
+services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services; and 
+Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses 
+(“CALs”), and other on-premises offerings.
+•
+Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services,. Microsoft Cloud revenue and revenue growth
+ 
+Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the 
+commercial portion of LinkedIn, and Dynamics 365
+ 
+ 
+ 
+Microsoft Cloud gross margin percentage
+ Gross margin percentage for our Microsoft Cloud business 
+ 
+Productivity and Business Processes and Intelligent Cloud
+Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within 
+these segments. The metrics primarily reflect growth across our cloud services.. technology. This segment primarily comprises:
+•
+Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel) 
+and Devices, comprising Surface and PC accessories.
+•
+Gaming, including Xbox hardware and Xbox content and services, comprising first- and third-party content (including games and 
+in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, advertising, and other cloud services.
+•
+Search and news advertising, comprising Bing and Copilot, Microsoft News, Microsoft Edge, and third-party affiliates.. efficiently.
+•
+Build the intelligent cloud and intelligent edge platform to provide a foundation for our customers’ digital workloads including 
+hybrid consistency, developer productivity, data and AI capabilities, and trusted security and compliance.
+•
+Create more personal computing to enable users to interact with technology in more intuitive, engaging, and dynamic ways. 
+Our Future Opportunity
+We are focused on helping customers use the breadth and depth of the Microsoft Cloud to get the most value out of their digital spend while. increased driven by Gaming and Search and news advertising.
+Cost of revenue increased $13.7 billion or 19% driven by growth in Microsoft Cloud.
+Gross margin increased $22.9 billion or 13% with growth across each of our segments. 
+•
+Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.
+•
+Microsoft Cloud gross margin percentage decreased to 69% driven by the impact of scaling our AI infrastructure, offset in part 
+by efficiency gains in Azure.. 7,827     
+6,831     
+5,796 
+Enterprise and partner services
+   
+7,760     
+7,594     
+7,900 
+Microsoft 365 Consumer products and cloud services
+  
+7,404   
+6,648   
+6,417 
+Other
+   
+72     
+45     
+119 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Total
+ $
+281,724  $
+245,122  $
+211,915 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of 
+LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively. These. PART II
+Item 7
+ 
+40
+Intelligent Cloud 
+Revenue increased $18.8 billion or 21%.
+•
+Server products and cloud services revenue increased $18.6 billion or 23% driven by Azure and other cloud services. Azure and 
+other cloud services revenue grew 34% driven by demand for our portfolio of services. Server products revenue decreased 3% 
+driven by a decrease in transactional purchasing with continued customer shift to cloud offerings.
+•
+Enterprise and partner services revenue increased $166 million or 2% driven by growth in Enterprise Support Services, offset in","The Microsoft Intelligent Cloud segment primarily comprises:
+
+- Server products and cloud services, including Azure and other cloud services, comprising cloud and AI consumption-based services, GitHub cloud services, Nuance Healthcare cloud services, virtual desktop offerings, and other cloud services.
+- Server products, comprising SQL Server, Windows Server, Visual Studio, System Center, related Client Access Licenses (CALs), and other on-premises offerings.
+- Enterprise and partner services, including Enterprise Support Services and Industry Solutions.",1,0.6,0.816,1,[],All factual claims in the answer are directly supported by the context provided.
+UC:3.6,14,How is Azure revenue primarily generated?,"devote more resources to development and use of applications that benefit their organizations, rather than managing on-premises hardware 
+and software. Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumption-based services.
+Azure AI offerings provide a competitive advantage as companies seek ways to optimize and scale their business with AI. We offer 
+supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services (including. PART II
+Item 7
+ 
+40
+Intelligent Cloud 
+Revenue increased $18.8 billion or 21%.
+•
+Server products and cloud services revenue increased $18.6 billion or 23% driven by Azure and other cloud services. Azure and 
+other cloud services revenue grew 34% driven by demand for our portfolio of services. Server products revenue decreased 3% 
+driven by a decrease in transactional purchasing with continued customer shift to cloud offerings.
+•
+Enterprise and partner services revenue increased $166 million or 2% driven by growth in Enterprise Support Services, offset in. 109,433    
+17%  
+Net income
+  
+101,832   
+88,136    
+16%  
+Diluted earnings per share
+  
+13.64   
+11.80    
+16%  
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fiscal Year 2025 Compared with Fiscal Year 2024
+Revenue increased $36.6 billion or 15% with growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. 
+Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue 
+increased driven by Gaming and Search and news advertising.. part by a decline in Industry Solutions.
+Operating income increased $6.8 billion or 18%.
+•
+Cost of revenue increased $10.6 billion or 36% driven by growth in Azure.
+•
+Gross margin increased $8.2 billion or 14% driven by growth in Azure. Gross margin percentage decreased driven by the impact 
+of scaling our AI infrastructure, offset in part by efficiency gains in Azure.
+•
+Operating expenses increased $1.5 billion or 7% driven by investments in cloud and AI engineering.
+More Personal Computing 
+Revenue increased $3.8 billion or 7%.
+•. Microsoft Cloud revenue and revenue growth
+ 
+Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the 
+commercial portion of LinkedIn, and Dynamics 365
+ 
+ 
+ 
+Microsoft Cloud gross margin percentage
+ Gross margin percentage for our Microsoft Cloud business 
+ 
+Productivity and Business Processes and Intelligent Cloud
+Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within 
+these segments. The metrics primarily reflect growth across our cloud services.. across ERP, CRM, Power Apps, and Power Automate
+ 
+ 
+ 
+Azure and other cloud services revenue growth
+ 
+Revenue from Azure and other cloud services, including cloud and AI consumption-
+based services, GitHub cloud services, Nuance Healthcare cloud services, virtual 
+desktop offerings, and other cloud services. Microsoft Cloud revenue increased 23% to $168.9 billion.
+•
+Microsoft 365 Commercial products and cloud services revenue increased 14% driven by Microsoft 365 Commercial cloud 
+revenue growth of 15%.
+•
+Microsoft 365 Consumer products and cloud services revenue increased 11% driven by Microsoft 365 Consumer cloud revenue 
+growth of 11%.
+•
+LinkedIn revenue increased 9%.
+•
+Dynamics products and cloud services revenue increased 15% driven by Dynamics 365 revenue growth of 19%.
+•
+Server products and cloud services revenue increased 23% driven by Azure and other cloud services revenue growth of 34%.. by efficiency gains in Azure.
+Operating expenses increased $3.8 billion or 6% driven by investments in cloud and AI engineering and Gaming, including the impact of the 
+Activision Blizzard acquisition.
+Operating income increased $19.1 billion or 17% with growth across each of our segments.. of which were primarily attributable to the Compute & Networking segment.
+For fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.
+Indirect Customers – Indirect customer revenue is an estimation based upon multiple factors including customer purchase order information, product
+specifications, internal sales data, and other sources. Indirect customers primarily purchase our products through system integrators and distributors. We. Revenue Recognition
+We derive our revenue primarily from product sales including hardware and systems. We determine revenue recognition through the following steps: (1)
+identification of the contract with a customer; (2) identification of the performance obligations in the contract; (3) determination of the transaction price; (4)
+allocation of the transaction price to the performance obligations in the contract (where revenue is allocated on a relative standalone selling price basis by",Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumption-based services.,1,0.6,0.712,1,[],The claim in the answer is directly supported by the context provided.
+UC:3.6,15,What competitive advantages does Microsoft claim for Azure?,"Network, and Learning Experience, assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop 
+solutions, and Nuance conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT 
+professionals on various Microsoft products.
+Competition
+Azure faces diverse competition from cloud service providers and open source offerings. Azure’s competitive advantage includes enabling a. PART I
+Item 1
+ 
+4
+The Microsoft Cloud provides integration across the technology stack while offering openness, improving time to value, reducing costs, and 
+increasing agility. Our cloud business benefits from three economies of scale: datacenters that deploy computational resources at 
+significantly lower cost per unit than smaller ones; datacenters that coordinate and aggregate diverse customer, geographic, and application 
+demand patterns, improving the utilization of computing, storage, and network resources; and multi-tenancy locations that lower application 
+maintenance labor costs.. we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address 
+the changing demands of customers and users, industry trends, and competitive forces.
+Microsoft and OpenAI maintain a long-term strategic partnership originally established in 2019. Microsoft is a major investor in OpenAI, and 
+the companies have reciprocal revenue-sharing arrangements. We hold rights to OpenAI’s intellectual property, including models and. increased driven by Gaming and Search and news advertising.
+Cost of revenue increased $13.7 billion or 19% driven by growth in Microsoft Cloud.
+Gross margin increased $22.9 billion or 13% with growth across each of our segments. 
+•
+Gross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.
+•
+Microsoft Cloud gross margin percentage decreased to 69% driven by the impact of scaling our AI infrastructure, offset in part 
+by efficiency gains in Azure.. department level, while realizing advantages as one organization. Organizations purchase perpetual licenses and SA is optional. 
+Partner Programs 
+The Microsoft Cloud Solution Provider Program offers customers an easy way to license the cloud services they need in combination with the 
+value-added services offered by their systems integrator, managed services provider, or cloud reseller partner. Partners in this program can 
+easily package their own products and services to directly provision, manage, and support their customer subscriptions.. We develop most of our products and services internally which allows us to maintain competitive advantages that come from product 
+differentiation and closer technical control over our products and services. It also gives us the freedom to decide which modifications and 
+enhancements are most important and when they should be implemented. We strive to obtain information as early as possible about 
+changing usage patterns and hardware advances that may affect software and hardware design. Before releasing new software platforms,. part by a decline in Industry Solutions.
+Operating income increased $6.8 billion or 18%.
+•
+Cost of revenue increased $10.6 billion or 36% driven by growth in Azure.
+•
+Gross margin increased $8.2 billion or 14% driven by growth in Azure. Gross margin percentage decreased driven by the impact 
+of scaling our AI infrastructure, offset in part by efficiency gains in Azure.
+•
+Operating expenses increased $1.5 billion or 7% driven by investments in cloud and AI engineering.
+More Personal Computing 
+Revenue increased $3.8 billion or 7%.
+•. supporting an array of software products; delivering relevant online advertising to a global audience; and designing and selling devices. Our 
+most significant expenses are related to compensating employees; supporting and investing in our cloud-based services, including 
+datacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes.
+Highlights from fiscal year 2025 compared with fiscal year 2024 included:
+•
+Microsoft Cloud revenue increased 23% to $168.9 billion.
+•. changes in market conditions, sudden and significant decreases in demand for our products, including potential cancellation or deferral of customer purchase
+orders, inventory obsolescence because of changing technology and customer requirements, new product introductions resulting in less demand for existing
+products or inconsistent spikes in demand, failure to estimate customer demand properly, ordering in advance of historical lead-times, government regulations
+and the impact of changes in future demand, or increase in demand for competitive products, including competitive actions.. geopolitical developments, have direct and indirect impacts on our results of operations, particularly demand for our products. While difficult to isolate and
+quantify, these macroeconomic factors impact our supply chain and manufacturing costs, employee wages, costs for capital equipment, the value of our
+investments, revenue and competitive position. Our product and solution pricing generally does not fluctuate with short-term changes in our costs. Within our
+supply chain, we continuously manage product availability and costs with our vendors.","Microsoft claims several competitive advantages for Azure, including:
+
+1. Integration across the technology stack while offering openness.
+2. Improvement in time to value.
+3. Reduction of costs.
+4. Increased agility.
+5. Economies of scale from datacenters that deploy computational resources at lower costs.
+6. Coordination and aggregation of diverse customer, geographic, and application demand patterns, improving resource utilization.
+7. Multi-tenancy locations that lower application maintenance labor costs.
+8. A broad range of research and development activities to address changing customer demands and industry trends.",1,0.2,0.874,1,[],All claims made in the answer are directly supported by the context provided.
+UC:3.6,16,What services are included in Microsoft Enterprise and Partner Services?,"(“CALs”), and other on-premises offerings.
+•
+Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, 
+Microsoft Partner Network, and Learning Experience.
+More Personal Computing
+Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our 
+technology. This segment primarily comprises:
+•
+Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel) 
+and Devices, comprising Surface and PC accessories.
+•. on licensing our products and services (“Enterprise Agreement Software Advisors” or “ESA”). Microsoft offers direct sales programs targeted 
+to reach small, medium, and corporate customers, in addition to those offered through the reseller channel. A large network of partner 
+advisors support many of these sales. 
+We also sell commercial and consumer products and services directly to customers, such as cloud services, search, and gaming, through 
+our digital marketplaces and online stores. Additionally, our Microsoft Experience Centers are designed to facilitate deeper engagement with. 7,827     
+6,831     
+5,796 
+Enterprise and partner services
+   
+7,760     
+7,594     
+7,900 
+Microsoft 365 Consumer products and cloud services
+  
+7,404   
+6,648   
+6,417 
+Other
+   
+72     
+45     
+119 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Total
+ $
+281,724  $
+245,122  $
+211,915 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of 
+LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively. These. superior applications, development tools, compatibility with a broad base of hardware and software applications, security, and manageability. 
+Our Enterprise and partner services business competes with a wide range of companies that provide strategy and business planning, 
+application development, and infrastructure services, including multinational consulting firms and small niche businesses focused on specific 
+technologies. 
+More Personal Computing
+Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our. and Windows Server, and revenue is reported along with the associated server product.
+GitHub and Nuance Healthcare include both cloud and on-premises offerings. GitHub provides a collaboration platform for developers to 
+manage code and incorporate AI and agent-based tools across the software development lifecycle. Nuance Healthcare provides AI solutions 
+to the healthcare industry. 
+Enterprise and Partner Services
+Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, Microsoft Partner. department level, while realizing advantages as one organization. Organizations purchase perpetual licenses and SA is optional. 
+Partner Programs 
+The Microsoft Cloud Solution Provider Program offers customers an easy way to license the cloud services they need in combination with the 
+value-added services offered by their systems integrator, managed services provider, or cloud reseller partner. Partners in this program can 
+easily package their own products and services to directly provision, manage, and support their customer subscriptions.. The Microsoft Services Provider License Agreement allows hosting service providers and independent software vendors who want to license 
+eligible Microsoft software products to provide hosted applications and software services to their end customers. Partners license software 
+over a three-year period and are billed monthly based on units licensed. 
+The Independent Software Vendor Royalty Program enables partners to integrate Microsoft products into other applications and then license 
+the unified business solution to their end users.
+GOVERNMENT REGULATION. Microsoft Partner Network, and Learning Experience.. •
+Microsoft 365 Commercial products and cloud services, including Microsoft 365 Commercial cloud, comprising Microsoft 365 
+Commercial, Enterprise Mobility + Security, the cloud portion of Windows Commercial, the per-user portion of Power BI, 
+Exchange, SharePoint, Microsoft Teams, Microsoft 365 Security and Compliance, and Microsoft 365 Copilot; and Microsoft 365 
+Commercial products, comprising Windows Commercial on-premises and Office licensed on-premises.
+•
+Microsoft 365 Consumer products and cloud services, including Microsoft 365 Consumer subscriptions, Office licensed on-. amounts are included in Microsoft 365 Commercial products and cloud services, Server products and cloud services, LinkedIn, and 
+Dynamics products and cloud services in the table above.
+Assets are not allocated to segments for internal reporting presentations. A portion of amortization and depreciation is included with various 
+other costs in an overhead allocation to each segment. It is impracticable for us to separately identify the amount of amortization and 
+depreciation by segment that is included in the measure of segment profit or loss.","Microsoft Enterprise and Partner Services include Enterprise Support Services, Industry Solutions, Nuance professional services, and the Microsoft Partner Network.",1,0.3,0.871,1,[],All claims in the answer are directly supported by the context provided.
+UC:3.6,17,How does Microsoft describe its Azure AI offerings?,"devote more resources to development and use of applications that benefit their organizations, rather than managing on-premises hardware 
+and software. Azure revenue is mainly affected by infrastructure-as-a-service and platform-as-a-service consumption-based services.
+Azure AI offerings provide a competitive advantage as companies seek ways to optimize and scale their business with AI. We offer 
+supercomputing power for AI at scale to run large workloads, complemented by our rapidly expanding portfolio of AI cloud services (including. hybrid cloud, allowing deployment of existing datacenters with our public cloud into a single, cohesive infrastructure, and the ability to run at a 
+scale that meets the needs of businesses of all sizes and complexities. Our AI offerings compete with AI products from hyperscalers, as well 
+as products from other emerging competitors and other open source offerings, many of which are also current or potential partners. Our 
+Azure Security offerings include our cloud security solution and security information and event management solution, which compete with. Network, and Learning Experience, assist customers in developing, deploying, and managing Microsoft server solutions, Microsoft desktop 
+solutions, and Nuance conversational AI and ambient intelligent solutions, along with providing training and certification to developers and IT 
+professionals on various Microsoft products.
+Competition
+Azure faces diverse competition from cloud service providers and open source offerings. Azure’s competitive advantage includes enabling a. OVERVIEW
+Microsoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so 
+responsibly, with a mission to empower every person and every organization on the planet to achieve more. We create platforms and tools, 
+powered by AI, that deliver innovative solutions that meet the evolving needs of our customers. 
+We generate revenue by offering a wide range of cloud-based solutions, content, and other services to people and businesses; licensing and. the latest models) and hardware, which includes custom-built silicon and strong partnerships with chip manufacturers. Azure AI Foundry is a 
+unified platform for developers to design, customize, and manage AI applications and agents.
+Our server products are designed to make IT professionals, developers, and their systems more productive and efficient. Server software is 
+integrated server infrastructure and middleware designed to support software applications built on the Windows Server operating system.. across ERP, CRM, Power Apps, and Power Automate
+ 
+ 
+ 
+Azure and other cloud services revenue growth
+ 
+Revenue from Azure and other cloud services, including cloud and AI consumption-
+based services, GitHub cloud services, Nuance Healthcare cloud services, virtual 
+desktop offerings, and other cloud services. part by a decline in Industry Solutions.
+Operating income increased $6.8 billion or 18%.
+•
+Cost of revenue increased $10.6 billion or 36% driven by growth in Azure.
+•
+Gross margin increased $8.2 billion or 14% driven by growth in Azure. Gross margin percentage decreased driven by the impact 
+of scaling our AI infrastructure, offset in part by efficiency gains in Azure.
+•
+Operating expenses increased $1.5 billion or 7% driven by investments in cloud and AI engineering.
+More Personal Computing 
+Revenue increased $3.8 billion or 7%.
+•. in their work and personal lives. As with many innovations, AI presents risks and challenges that could affect its adoption, and therefore our 
+business. AI algorithms or training methodologies may be flawed. Datasets may be overbroad, insufficient, or contain biased or inaccurate 
+information. Content generated by AI systems may be offensive, illegal, inaccurate, or otherwise harmful. Ineffective or inadequate AI 
+development or deployment practices by Microsoft or others could result in incidents that impair the acceptance of AI solutions, cause harm. Microsoft Cloud revenue and revenue growth
+ 
+Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the 
+commercial portion of LinkedIn, and Dynamics 365
+ 
+ 
+ 
+Microsoft Cloud gross margin percentage
+ Gross margin percentage for our Microsoft Cloud business 
+ 
+Productivity and Business Processes and Intelligent Cloud
+Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within 
+these segments. The metrics primarily reflect growth across our cloud services.. 7,827     
+6,831     
+5,796 
+Enterprise and partner services
+   
+7,760     
+7,594     
+7,900 
+Microsoft 365 Consumer products and cloud services
+  
+7,404   
+6,648   
+6,417 
+Other
+   
+72     
+45     
+119 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Total
+ $
+281,724  $
+245,122  $
+211,915 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+Our Microsoft Cloud revenue, which includes Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of 
+LinkedIn, and Dynamics 365, was $168.9 billion, $137.7 billion, and $111.6 billion in fiscal years 2025, 2024, and 2023, respectively. These","Microsoft describes its Azure AI offerings as providing a competitive advantage as companies seek ways to optimize and scale their business with AI. They offer supercomputing power for AI at scale to run large workloads, complemented by a rapidly expanding portfolio of AI cloud services. Azure AI Foundry is mentioned as a unified platform for developers to design, customize, and manage AI applications and agents.",1,0.2,0.821,1,[],All factual claims in the answer are supported by the context.
+UC:3.6,18,What drives Dynamics revenue according to Microsoft?,"customer relationship management (“CRM”), and supply chain management, as well as agentic AI and other low code application 
+development platforms, for small and medium businesses, large organizations, and divisions of global enterprises. Dynamics revenue is 
+driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to 
+Dynamics 365, a unified set of cloud-based intelligent business applications, including our low code development platforms, such as Power 
+Apps and Power Automate.
+Competition. by a decline in Dynamics on-premises products. Dynamics 365 revenue grew 19% with growth across all workloads.
+Operating income increased $10.1 billion or 17%.
+•
+Cost of revenue increased $2.8 billion or 14% driven by growth in Microsoft 365 Commercial cloud. 
+•
+Gross margin increased $11.2 billion or 13% driven by growth in Microsoft 365 Commercial cloud. Gross margin percentage 
+decreased slightly primarily driven by the impact of scaling our AI infrastructure, offset in part by efficiency gains in Microsoft 365 
+Commercial cloud.
+•. Microsoft Cloud revenue increased 23% to $168.9 billion.
+•
+Microsoft 365 Commercial products and cloud services revenue increased 14% driven by Microsoft 365 Commercial cloud 
+revenue growth of 15%.
+•
+Microsoft 365 Consumer products and cloud services revenue increased 11% driven by Microsoft 365 Consumer cloud revenue 
+growth of 11%.
+•
+LinkedIn revenue increased 9%.
+•
+Dynamics products and cloud services revenue increased 15% driven by Dynamics 365 revenue growth of 19%.
+•
+Server products and cloud services revenue increased 23% driven by Azure and other cloud services revenue growth of 34%.. with the launch of Office 2024.
+•
+Microsoft 365 Consumer products and cloud services revenue increased $756 million or 11%. Microsoft 365 Consumer cloud 
+revenue grew 11% driven by Microsoft 365 Consumer subscriber growth of 8% to 89.0 million, as well as growth in revenue per 
+user from the price increase announced in January 2025.
+•
+LinkedIn revenue increased $1.4 billion or 9% with growth across all lines of business.
+•
+Dynamics products and cloud services revenue increased $996 million or 15% driven by growth in Dynamics 365, offset in part. for our members and customers. LinkedIn revenue is mainly affected by demand from enterprises and professionals for subscriptions to 
+Talent Solutions, Sales Solutions, and Premium Subscriptions offerings, as well as member engagement and the quality of the sponsored 
+content delivered to those members to drive Marketing Solutions. 
+Dynamics Products and Cloud Services
+Dynamics provides cloud-based and on-premises business solutions for financial management, enterprise resource planning (“ERP”),. Microsoft 365 Consumer cloud revenue growth
+ Revenue from Microsoft 365 Consumer subscriptions and other consumer services
+ 
+ 
+ 
+Microsoft 365 Consumer subscribers
+ The number of Microsoft 365 Consumer subscribers at end of period
+ 
+ 
+ 
+LinkedIn revenue growth
+ 
+Revenue from LinkedIn, including Talent Solutions, Marketing Solutions, Premium 
+Subscriptions, and Sales Solutions
+ 
+ 
+ 
+Dynamics 365 revenue growth
+ 
+Revenue from Dynamics 365, including a set of intelligent, cloud-based applications 
+across ERP, CRM, Power Apps, and Power Automate. Microsoft Cloud revenue and revenue growth
+ 
+Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the 
+commercial portion of LinkedIn, and Dynamics 365
+ 
+ 
+ 
+Microsoft Cloud gross margin percentage
+ Gross margin percentage for our Microsoft Cloud business 
+ 
+Productivity and Business Processes and Intelligent Cloud
+Metrics related to our Productivity and Business Processes and Intelligent Cloud segments assess the health of our core businesses within 
+these segments. The metrics primarily reflect growth across our cloud services.. the commercial portion of LinkedIn, Dynamics products and cloud services, and Enterprise and partner services. Our commercial metrics 
+allow management and investors to assess the overall health of our commercial business and include leading indicators of future 
+performance.
+ 
+Commercial remaining performance obligation 
+ 
+Commercial portion of revenue allocated to remaining performance obligations, 
+which includes unearned revenue and amounts that will be invoiced and recognized 
+as revenue in future periods
+ 
+ 
+ 
+Microsoft Cloud revenue and revenue growth. Productivity and Business Processes 
+Revenue increased $14.0 billion or 13%.
+•
+Microsoft 365 Commercial products and cloud services revenue increased $10.8 billion or 14%. Microsoft 365 Commercial cloud
+revenue grew 15% with Microsoft 365 Commercial seat growth of 6% driven by small and medium businesses and frontline 
+worker offerings, as well as growth in revenue per user. Microsoft 365 Commercial products revenue grew 7% driven by the 
+Windows Commercial on-premises components of Microsoft 365 suite sales and an increase in Office transactional purchasing 
+with the launch of Office 2024.
+•. over the coverage period. Unearned revenue also includes payments for consulting services to be performed in the future, LinkedIn 
+subscriptions, Office 365 subscriptions, Xbox subscriptions, Windows post-delivery support, Dynamics business solutions, and other 
+offerings for which we have been paid in advance and earn the revenue when we transfer control of the product or service. 
+Refer to Note 12 – Unearned Revenue for further information, including unearned revenue by segment and changes in unearned revenue 
+during the period.","Dynamics revenue is driven by the number of users licensed and applications consumed, expansion of average revenue per user, and the continued shift to Dynamics 365, a unified set of cloud-based intelligent business applications.",1,0.7,0.675,1,[],All claims in the answer are directly supported by the context provided.
+UC:3.6,19,What factors impact Windows OEM revenue?,"Windows and Devices
+The Windows operating system is designed to deliver a more personal computing experience for users by enabling consistency of 
+experience, applications, and information across their devices. Windows OEM revenue is impacted significantly by the number of Windows 
+operating system licenses purchased by OEMs, which they pre-install on the devices they sell. In addition to computing device market 
+volume, Windows OEM revenue is impacted by: 
+•
+The mix of computing devices based on form factor and screen size.
+•. Revenue increased $3.8 billion or 7%.
+•
+Windows and Devices revenue increased $288 million or 2%. Windows OEM and Devices revenue increased 3% driven by 
+growth in Windows OEM, offset in part by a decline in Devices. 
+•
+Gaming revenue increased $2.0 billion or 9% driven by growth in Xbox content and services, offset in part by a decline in Xbox 
+hardware. Xbox content and services revenue increased 16% driven by the impact of the Activision Blizzard acquisition and 
+Xbox Game Pass. Xbox hardware revenue decreased 25% driven by lower volume of consoles sold.
+•. •
+Windows OEM and Devices revenue increased 3%.
+•
+Xbox content and services revenue increased 16%.
+•
+Search and news advertising revenue excluding traffic acquisition costs increased 20%.
+Industry Trends and Opportunities
+Our industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an 
+opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft,. PART II
+Item 7
+ 
+38
+More Personal Computing
+Metrics related to our More Personal Computing segment assess the performance of our key consumer businesses.
+ 
+Windows OEM and Devices revenue growth
+ 
+Revenue from sales of Windows Pro and non-Pro licenses sold through the OEM 
+channel and sales of first-party Devices, including Surface and PC accessories
+ 
+ 
+ 
+Xbox content and services revenue growth 
+ 
+Revenue from Xbox content and services, comprising first- and third-party content 
+(including games and in-game content), Xbox Game Pass and other subscriptions,. of Microsoft 365 together and creating a new Microsoft 365 Commercial cloud revenue growth metric. Other changes include combining 
+Windows OEM and Devices into a single revenue growth metric that brings revenue from PC market-driven businesses together, as well as 
+elevating our cloud revenue growth metrics to align to our strategic focus on cloud growth. 
+Commercial
+Our commercial business primarily consists of Server products and cloud services, Microsoft 365 Commercial products and cloud services,. •
+Differences in device market demand between developed markets and growth markets.
+•
+Growth of the AI PC category.
+•
+Attachment of Windows to devices shipped.
+•
+Customer mix between consumer, small and medium businesses, and large enterprises.
+•
+Changes in inventory levels in the OEM channel.
+•
+Pricing changes and promotions, pricing variation that occurs when the mix of devices manufactured shifts from local and 
+regional system builders to large multinational OEMs, and different pricing of Windows versions licensed.
+•
+Constraints in the supply chain of device components.
+•
+Piracy.. technology. This segment primarily comprises:
+•
+Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel) 
+and Devices, comprising Surface and PC accessories.
+•
+Gaming, including Xbox hardware and Xbox content and services, comprising first- and third-party content (including games and 
+in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, advertising, and other cloud services.
+•
+Search and news advertising, comprising Bing and Copilot, Microsoft News, Microsoft Edge, and third-party affiliates.. (“CALs”), and other on-premises offerings.
+•
+Enterprise and partner services, including Enterprise Support Services, Industry Solutions, Nuance professional services, 
+Microsoft Partner Network, and Learning Experience.
+More Personal Computing
+Our More Personal Computing segment consists of products and services that put customers at the center of the experience with our 
+technology. This segment primarily comprises:
+•
+Windows and Devices, including Windows OEM licensing (Windows Pro and non-Pro licenses sold through the OEM channel) 
+and Devices, comprising Surface and PC accessories.
+•. AWS Well-Architected Framework
+Framework
+Level of eﬀort for the Implementation Plan: Moderate
+Resources
+Related Best Practices:
+REL13-BP01 Deﬁne recovery objectives for downtime and data loss
+REL13-BP02 Use deﬁned recovery strategies to meet the recovery objectives
+Related documents:
+• What Is AWS Backup?
+• What is AWS DataSync?
+• What is Volume Gateway?
+• APN Partner: partners that can help with backup
+• AWS Marketplace: products that can be used for backup
+• Amazon EBS Snapshots
+• Backing Up Amazon EFS
+• Backing up Amazon FSx for Windows File Server. AWS Well-Architected Framework
+Framework
+• Amazon Elastic File System (Amazon EFS)
+• What is Amazon FSx for Lustre?
+• What is Amazon FSx for Windows File Server?
+• AWS OpsWorks: Using Auto Healing to Replace Failed Instances
+• What is AWS Step Functions?
+• What is AWS Lambda?
+• What Is Amazon EventBridge?
+• Using Amazon CloudWatch Alarms
+• Amazon RDS Failover
+• SSM - Systems Manager Automation
+• Resilient Architecture Best Practices
+Related videos:
+• Automatically Provision and Scale OpenSearch Service
+• Amazon RDS Failover Automatically
+Related examples:
+• Amazon RDS Failover Workshop","Windows OEM revenue is impacted by the following factors:
+- The number of Windows operating system licenses purchased by OEMs.
+- The mix of computing devices based on form factor and screen size.
+- Differences in device market demand between developed markets and growth markets.
+- Growth of the AI PC category.
+- Attachment of Windows to devices shipped.
+- Customer mix between consumer, small and medium businesses, and large enterprises.
+- Changes in inventory levels in the OEM channel.
+- Pricing changes and promotions.
+- Pricing variation that occurs when the mix of devices manufactured shifts from local and regional system builders to large multinational OEMs.
+- Constraints in the supply chain of device components.
+- Piracy.",1,0.6,0.832,1,[],All claims made in the answer are directly supported by the context provided.
+UC:3.6,20,What are the six pillars of the AWS Well-Architected Framework?,"AWS Well-Architected Framework
+Framework
+The pillars of the framework
+Creating a software system is a lot like constructing a building. If the foundation is not solid, 
+structural problems can undermine the integrity and function of the building. When architecting 
+technology solutions, if you neglect the six pillars of operational excellence, security, reliability, 
+performance eﬃciency, cost optimization, and sustainability, it can become challenging to build a 
+system that delivers on your expectations and requirements. Incorporating these pillars into your. AWS Well-Architected Framework
+Framework
+Conclusion
+The AWS Well-Architected Framework provides architectural best practices across the six pillars for 
+designing and operating reliable, secure, eﬃcient, cost-eﬀective, and sustainable systems in the 
+cloud. The Framework provides a set of questions that allows you to review an existing or proposed 
+architecture. It also provides a set of AWS best practices for each pillar. Using the Framework in 
+your architecture will help you produce stable and eﬃcient systems, which allow you to focus on 
+your functional requirements.
+66. As you deploy these systems into live environments, we learn how well these systems perform and 
+the consequences of those trade-oﬀs.
+Based on what we have learned, we have created the AWS Well-Architected Framework, which 
+provides a consistent set of best practices for customers and partners to evaluate architectures, 
+and provides a set of questions you can use to evaluate how well an architecture is aligned to AWS 
+best practices.
+The AWS Well-Architected Framework is based on six pillars — operational excellence, security,. reliability, performance eﬃciency, cost optimization, and sustainability.
+Table 1. The pillars of the AWS Well-Architected Framework
+Name
+Description
+Operational excellence
+The ability to support development and run 
+workloads eﬀectively, gain insight into their 
+operations, and to continuously improve 
+supporting processes and procedures to 
+deliver business value.
+Security
+The security pillar describes how to take 
+advantage of cloud technologies to protect 
+Deﬁnitions
+2. AWS Well-Architected Framework
+Framework
+and specify whether the workload or workload environment should be separate from other 
+workloads. Security promotes adhesion to access and data requirements. Reliability manages 
+limits so that environments and workloads do not impact others. Review the security and 
+reliability pillars of the Well-Architected Framework periodically and follow the provided best 
+practices. Financial constructs create strict ﬁnancial separation (diﬀerent cost center, workload 
+ownerships and accountability). Common examples of separation are production and test. AWS Well-Architected Framework
+Framework
+Further reading
+AWS Architecture Center
+AWS Cloud Compliance
+AWS Well-Architected Partner program
+AWS Well-Architected Tool
+AWS Well-Architected homepage
+Operational Excellence Pillar whitepaper
+Security Pillar whitepaper
+Reliability Pillar whitepaper
+Performance Eﬃciency Pillar whitepaper
+Cost Optimization Pillar whitepaper
+Sustainability Pillar whitepaper
+The Amazon Builders' Library
+68. AWS Well-Architected Framework
+Framework
+AWS Well-Architected Framework
+Publication date: November 6, 2024 (Document revisions)
+The AWS Well-Architected Framework helps you understand the pros and cons of decisions you 
+make while building systems on AWS. By using the Framework you will learn architectural best 
+practices for designing and operating reliable, secure, eﬃcient, cost-eﬀective, and sustainable 
+systems in the cloud.
+Introduction
+The AWS Well-Architected Framework helps you understand the pros and cons of decisions you. AWS Well-Architected Framework
+Framework
+Implementation steps
+Items to include in a playbook include:
+• Playbook overview: What risk or incident scenario does this playbook address? What is the goal 
+of the playbook?
+• Prerequisites: What logs, detection mechanisms, and automated tools are required for this 
+incident scenario? What is the expected notiﬁcation?
+• Communication and escalation information: Who is involved and what is their contact 
+information? What are each of the stakeholders’ responsibilities?. Operational Excellence 
+moved to front of pillars and 
+rewritten so it frames other 
+pillars. Refreshed other pillars 
+to reﬂect evolution of AWS.
+November 1, 2017
+Whitepaper updated
+Updated the Framework to 
+include operational excellenc 
+e pillar, and revised and 
+updated the other pillars 
+to reduce duplication and 
+incorporate learnings from 
+carrying out reviews with 
+thousands of customers.
+November 1, 2016
+Minor updates
+Updated the Appendix with 
+current Amazon CloudWatch 
+Logs information.
+November 1, 2015
+71. teams, management, and ﬁnancial roles. Prioritize the Well-Architected pillars for this workload 
+and its components. The output should be a list of the pillars in order. You can also add a weight 
+to each pillar to indicate how much additional focus it has, or how similar the focus is between 
+two pillars.
+• Address the technical debt and document it: During the workload review, address the technical 
+debt. Document a backlog item to revisit the workload in the future, with the goal of refactoring","The six pillars of the AWS Well-Architected Framework are operational excellence, security, reliability, performance efficiency, cost optimization, and sustainability.",1,0.5,0.905,1,[],All claims in the answer are directly supported by the context.
+UC:3.6,21,What are the design principles of the Operational Excellence pillar?,"The operational excellence pillar provides an overview of design principles, best practices, and 
+questions. You can ﬁnd prescriptive guidance on implementation in the Operational Excellence 
+Pillar whitepaper.
+Topics
+• Design principles
+• Deﬁnition
+• Best practices
+• Resources
+Operational excellence
+8. architecture will help you produce stable and eﬃcient systems. This will allow you to focus on the 
+other aspects of design, such as functional requirements.
+Pillars
+• Operational excellence
+• Security
+• Reliability
+• Performance eﬃciency
+• Cost optimization
+• Sustainability
+Operational excellence
+Operational excellence (OE) is a commitment to build software correctly while consistently 
+delivering a great customer experience. The operational excellence pillar contains best practices for 
+organizing your team, designing your workload, operating it at scale, and evolving it over time.. increases the predictability of successful results from changes deployed into production.
+Resources
+Refer to the following resources to learn more about our best practices for Operational Excellence.
+Documentation
+• DevOps and AWS
+Whitepaper
+• Operational Excellence Pillar
+Video
+• DevOps at Amazon
+Security
+The Security pillar encompasses the ability to protect data, systems, and assets to take advantage 
+of cloud technologies to improve your security.
+The security pillar provides an overview of design principles, best practices, and questions. You can. AWS Well-Architected Framework
+Framework
+Appendix: Questions and best practices
+This appendix summarizes all the questions and best practices in the AWS Well-Architected 
+Framework.
+Pillars
+• Operational excellence
+• Security
+• Reliability
+• Performance eﬃciency
+• Cost optimization
+• Sustainability
+Operational excellence
+Operational excellence (OE) is a commitment to build software correctly while consistently 
+delivering a great customer experience. The operational excellence pillar contains best practices for. organizing your team, designing your workload, operating it at scale, and evolving it over time. You 
+can ﬁnd prescriptive guidance on implementation in the Operational Excellence Pillar whitepaper.
+Best practice areas
+• Organization
+• Prepare
+• Operate
+• Evolve
+Organization
+Questions
+• OPS 1. How do you determine what your priorities are?
+• OPS 2. How do you structure your organization to support your business outcomes?
+• OPS 3. How does your organizational culture support your business outcomes?
+Operational excellence
+73. Operational Excellence 
+moved to front of pillars and 
+rewritten so it frames other 
+pillars. Refreshed other pillars 
+to reﬂect evolution of AWS.
+November 1, 2017
+Whitepaper updated
+Updated the Framework to 
+include operational excellenc 
+e pillar, and revised and 
+updated the other pillars 
+to reduce duplication and 
+incorporate learnings from 
+carrying out reviews with 
+thousands of customers.
+November 1, 2016
+Minor updates
+Updated the Appendix with 
+current Amazon CloudWatch 
+Logs information.
+November 1, 2015
+71. AWS Well-Architected Framework
+Framework
+For more details on implementing entity lifecycle tracking, see AWS Well-Architected Operational 
+Excellence Pillar whitepaper.
+Implementation steps
+• Establish project lifecycle monitoring process: The Cloud Center of Excellence team must 
+establish project lifecycle monitoring process. Establish a structured and systematic approach 
+to monitoring workloads in order to improve control, visibility, and performance of the 
+projects. Make the monitoring process transparent, collaborative, and focused on continuous. Operational excellence ................................................................................................................................ 8
+Design principles ..................................................................................................................................... 9
+Deﬁnition ................................................................................................................................................ 10. implementing reliable workloads on AWS.
+The reliability pillar provides an overview of design principles, best practices, and questions. You 
+can ﬁnd prescriptive guidance on implementation in the Reliability Pillar whitepaper.
+Topics
+• Design principles
+• Deﬁnition
+• Best practices
+• Resources
+Design principles
+There are ﬁve design principles for reliability in the cloud:
+Reliability
+32. AWS Well-Architected Framework
+Framework
+The cost optimization pillar provides an overview of design principles, best practices, and 
+questions. You can ﬁnd prescriptive guidance on implementation in the Cost Optimization Pillar 
+whitepaper.
+Topics
+• Design principles
+• Deﬁnition
+• Best practices
+• Resources
+Design principles
+There are ﬁve design principles for cost optimization in the cloud:
+• Implement Cloud Financial Management: To achieve ﬁnancial success and accelerate business 
+value realization in the cloud, invest in Cloud Financial Management and Cost Optimization.",I don't know.,0,0.6,0.156,0,[],The answer does not provide any factual claims that can be traced back to the context.

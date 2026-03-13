@@ -17,7 +17,7 @@ def generate_csv_from_json(filePath: str):
     # Normalize nested fields
     df = json_normalize(data)
 
-    df.to_csv("eval_result_2.csv", index=False)
+    df.to_csv("eval_result_hybrid_6.csv", index=False)
 
     print("CSV generated successfully!")
         

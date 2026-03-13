@@ -1,159 +1,144 @@
-# 📚 Advanced RAG Optimization — Chunk Size 600 Experiment
+# 🔍 Advanced RAG Optimization — Hybrid Retrieval + CrossEncoder Reranking
 
-This repository contains experiments focused on improving Retrieval-Augmented Generation (RAG) performance by tuning chunking parameters.
+This repository contains an advanced Retrieval-Augmented Generation (RAG) experiment focused on improving retrieval quality using:
 
-Branch: `base_chunk_600`
-Location: `Baseline_Chunking/`
+* ✅ Hybrid Search (FAISS + BM25)
+* ✅ Weighted Ensemble Retrieval
+* ✅ CrossEncoder-based Reranking
+
+Branch: `hybrid_retrieval`
+Core Logic: `Baseline_Chunking/src/DataRetriever.py`
 
 ---
 
 # 🎯 Objective
 
-Improve RAG answer quality and retrieval precision by optimizing:
+Improve RAG performance for structured financial documents by:
 
-* **Chunk Size:** 600 tokens
-* **Chunk Overlap:** 60 tokens
-
-The hypothesis was that smaller, more semantically focused chunks would:
-
-* Reduce irrelevant context retrieval
-* Improve answer relevance
-* Improve context precision
-* Maintain groundedness
-
-------------------------------------------------------------------------
-
-# 🧠 Architecture Overview
-
-PDFs → Chunking → Embeddings → FAISS → Retrieval
-Retrieval → Context + Question → gpt-4o-mini → Answer
-Answer → LLM-as-Judge → Evaluation Metrics
-
-![Architecture Diagram](asset/images/Architect_chunk_600.png)
-
-------------------------------------------------------------------------
-
-
-# ⚙️ Experiment Setup
-
-| Parameter            | Baseline                | Improved             |
-| -------------------- | ----------------------- | -------------------- |
-| Chunk Size           | Default (larger chunks) | **600 tokens**       |
-| Chunk Overlap        | Default                 | **60 tokens (~10%)** |
-| Embedding Model      | Same                    | Same                 |
-| LLM                  | Same                    | Same                 |
-| Evaluation Framework | Same                    | Same                 |
-
-All other variables were kept constant to isolate the impact of chunking strategy.
+1. Increasing recall using hybrid search
+2. Improving ranking quality using reranking
+3. Reducing hallucination risk
+4. Enhancing answer relevance
 
 ---
 
-# 📊 Evaluation Metrics
+# 🏗 Architecture Overview
 
-We evaluated using the following RAG quality metrics:
+### Step 1 — Vector Retrieval (Semantic Search)
 
-* **Groundedness** — Are claims supported by context?
-* **Context Adherence** — Does answer rely on retrieved context?
-* **Context Precision** — Is retrieved context relevant?
-* **Answer Relevance** — Does answer directly address the question?
+* FAISS vector store
+* SentenceTransformer embeddings
+* Captures semantic similarity
 
----
+### Step 2 — Keyword Retrieval
 
-# 📈 Results Comparison
+* BM25Retriever
+* Strong exact-match handling
+* Effective for numeric-heavy documents
 
-| Metric            | Baseline | Chunk 600  | Improvement |
-| ----------------- | -------- | ---------- | ----------- |
-| Groundedness      | 0.7619   | 0.7460     | −0.0159     |
-| Context Adherence | 0.8095   | **0.8476** | +0.0381     |
-| Context Precision | 0.4571   | **0.4762** | +0.0190     |
-| Answer Relevance  | 0.6982   | **0.7448** | +0.0466     |
+### Step 3 — Hybrid Fusion
 
+* EnsembleRetriever
+* Weighted merging of FAISS + BM25
+* Balances semantic and lexical relevance
 
-Note : Detailed result of each question can be found <a href="https://github.com/TechTrojan/AdvanceRAG/tree/base_chunk_600/Baseline_Chunking/eval_result">here</a>
+### Step 4 — CrossEncoder Reranking
 
----
+* CrossEncoderReranker
+* Re-ranks top retrieved chunks
+* Improves ranking precision
+* Reduces irrelevant context
 
-# 🔎 Observations
-
-### 1️⃣ Groundedness
-
-Slight decrease (−0.016), statistically negligible.
-No meaningful increase in hallucination rate.
-
-### 2️⃣ Context Adherence ↑
-
-Improved reliance on retrieved context.
-
-### 3️⃣ Context Precision ↑
-
-Cleaner retrieval with reduced irrelevant financial tables.
-
-### 4️⃣ Answer Relevance ↑ (Largest Gain)
-
-Improved semantic matching and fewer vague responses.
+![Architecture Diagram](/Baseline_Chunking/asset/images/Architect_hybrid_rerank.png)
 
 ---
 
-# 🧠 Why Chunk Size 600 Works Better
+# ⚙️ Retrieval Pipeline (DataRetriever.py)
 
-Financial documents (10-K filings, risk disclosures, etc.) often contain:
+High-level logic:
 
-* Large structured tables
-* Repeated headings
-* Dense financial data
-
-Large chunks:
-
-* Introduce noise
-* Reduce embedding discrimination
-* Increase irrelevant retrieval
-
-Smaller chunks (600 tokens):
-
-* Improve semantic targeting
-* Increase embedding granularity
-* Reduce context dilution
-* Improve answer focus
-
----
-
-# 📌 Key Takeaway
-
-Chunk size **600 with 60 overlap** improves overall RAG performance for structured financial documents.
-
-The increase in:
-
-* Context Adherence
-* Context Precision
-* Answer Relevance
-
-outweighs the negligible drop in groundedness.
-
----
-
-# 🚀 Recommended Configuration
-
-For SEC filings and structured reports:
-
-```
-chunk_size = 600
-chunk_overlap = 60
+```text
+Query
+  ↓
+FAISS Retrieval
+  ↓
+BM25 Retrieval
+  ↓
+Ensemble Fusion
+  ↓
+CrossEncoder Reranking
+  ↓
+Top-K Context
+  ↓
+LLM Answer Generation
 ```
 
-Suggested tuning range:
+This layered retrieval strategy ensures:
 
-* Chunk Size: 500–800
-* Overlap: 10–15%
+* High recall (hybrid search)
+* High precision (reranking)
+* Better grounding
 
 ---
 
-# 🧪 Future Improvements
+# 🧠 Why Hybrid + Reranking?
 
-* Test chunk size 500 vs 700
-* Evaluate impact of dynamic chunking
-* Try semantic chunking instead of fixed window
-* Test hybrid retrieval (BM25 + vector)
-* Add reranking layer
+### Hybrid Search Alone:
+
+✔ Improves recall
+⚠ May introduce some noisy results
+
+### Reranking Layer:
+
+✔ Filters noise
+✔ Improves ordering quality
+✔ Boosts context precision
+✔ Improves answer alignment
+
+Together, they create a more production-grade retrieval stack.
+
+---
+
+# 📊 What This Improves
+
+Compared to baseline RAG:
+
+* Higher groundedness
+* Improved answer relevance
+* Better multi-hop reasoning
+* Reduced hallucination risk
+* More reliable numeric extraction
+
+(Quantitative comparison will be added in evaluation section.)
+
+---
+
+# 🔬 Key Design Decisions
+
+| Component            | Purpose                     |
+| -------------------- | --------------------------- |
+| FAISS                | Semantic similarity         |
+| BM25                 | Exact keyword matching      |
+| EnsembleRetriever    | Weighted hybrid fusion      |
+| CrossEncoderReranker | Precision-focused reranking |
+| Top-K Filtering      | Control context size        |
+
+---
+
+# 🚀 Why This Matters for Agents
+
+In Agentic AI systems:
+
+* Retrieval directly impacts reasoning quality
+* Poor retrieval → flawed tool calls
+* Noisy context → hallucinated intermediate steps
+
+Hybrid + reranking enables:
+
+* Cleaner context for reasoning
+* Better multi-step planning
+* More reliable financial fact extraction
+* Higher trust in production systems
 
 ---
 
@@ -161,25 +146,50 @@ Suggested tuning range:
 
 ```
 Baseline_Chunking/
-├── ingestion.py
-├── retrieval.py
-├── evaluation.py
-├── configs/
-├── results/
-└── README.md
+└── src/
+    ├── DataRetriever.py      ← Hybrid + Reranking logic
+    ├── Ingestion.py
+    ├── Evaluation.py
+    └── ...
 ```
 
 ---
 
-# 📖 Reference
+# 🛠 Technologies Used
 
-Chunk size 600 implementation:
-https://github.com/TechTrojan/AdvanceRAG/tree/base_chunk_600/Baseline_Chunking
+* LangChain
+* FAISS
+* BM25Retriever
+* EnsembleRetriever
+* CrossEncoderReranker
+* OpenAI LLM
+* SentenceTransformers
 
 ---
 
-# 👨‍💻 Author
+# 🔗 Repository
 
-Experiment conducted to optimize RAG parameter tuning for structured enterprise documents.
+Hybrid retrieval branch:
+
+https://github.com/TechTrojan/AdvanceRAG/tree/hybrid_retrieval
+
+Core logic:
+
+https://github.com/TechTrojan/AdvanceRAG/blob/hybrid_retrieval/Baseline_Chunking/src/DataRetriever.py
+
+---
+
+# 📌 Next Step
+
+Evaluation results and quantitative comparison will be added to demonstrate measurable improvements over:
+
+* Baseline RAG
+* Chunk Size 600 Optimization
+
+---
+
+## 👨‍💻 Author
+
+Experiment conducted to explore production-grade retrieval strategies for structured enterprise documents using Hybrid Search and Reranking.
 
 ---

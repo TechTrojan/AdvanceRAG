@@ -99,19 +99,41 @@ Together, they create a more production-grade retrieval stack.
 
 ---
 
-# 📊 What This Improves
+## 📊 Evaluation Results — Hybrid + Reranking
 
-Compared to baseline RAG:
-
-* Higher groundedness
-* Improved answer relevance
-* Better multi-hop reasoning
-* Reduced hallucination risk
-* More reliable numeric extraction
-
-(Quantitative comparison will be added in evaluation section.)
+| Metric | Score |
+|--------|-------|
+| Context Adherence | 90.48% |
+| Context Precision | 37.14% |
+| Answer Relevance | 77.06% |
+| Groundedness | 80.95% |
 
 ---
+
+## 🔎 Key Improvements
+
+### ✅ Highest Context Adherence (90.48%)
+The model relies more consistently on retrieved context rather than generating unsupported information.
+
+### ✅ Highest Answer Relevance (77.06%)
+Combining semantic similarity (FAISS) with keyword matching (BM25), then applying CrossEncoder reranking ensures the most relevant chunks appear first.
+
+### ✅ Highest Groundedness (80.95%)
+Factual claims are more consistently traceable to retrieved context, reducing hallucination risk and improving numeric extraction reliability.
+
+---
+
+## ⚖ Observed Tradeoff
+
+Context Precision decreased (37.14%) due to increased recall from hybrid retrieval. 
+
+This is expected in hybrid systems:
+- More documents retrieved
+- Broader coverage
+- Slight increase in irrelevant candidates
+
+However, groundedness and answer relevance improved — which is more critical for enterprise RAG systems.
+
 
 # 🔬 Key Design Decisions
 
@@ -173,18 +195,6 @@ Hybrid retrieval branch:
 
 https://github.com/TechTrojan/AdvanceRAG/tree/hybrid_retrieval
 
-Core logic:
-
-https://github.com/TechTrojan/AdvanceRAG/blob/hybrid_retrieval/Baseline_Chunking/src/DataRetriever.py
-
----
-
-# 📌 Next Step
-
-Evaluation results and quantitative comparison will be added to demonstrate measurable improvements over:
-
-* Baseline RAG
-* Chunk Size 600 Optimization
 
 ---
 

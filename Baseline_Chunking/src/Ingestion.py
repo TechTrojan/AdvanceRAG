@@ -26,8 +26,9 @@ class PDFDataIngester:
         
     
     def LoadDocuments(self) :
-        for file in os.listdir(self.dirPath):
-            docs = self.__LoadDocument__(f"{dirPath}\\{file}")
+        rawFolderPath = self.dirPath + "\\raw\\"
+        for file in os.listdir(rawFolderPath):
+            docs = self.__LoadDocument__(f"{rawFolderPath}\\{file}")
             if docs is not None :
                 self.documents.extend(docs )
         
@@ -75,6 +76,7 @@ class PDFDataIngester:
         
         try:
             localPath = f"{self.dirPath}\\index_data\\faiss_index_base_chunk_600"    
+            
             self.vec_store.save_local(localPath)
             return f"Vector store created in local at {localPath}"
         except Exception as e :
@@ -91,15 +93,17 @@ cwd = os.getcwd()
 
 
 dirPath  = f"{cwd}\\Baseline_Chunking\\data\\"
-raw_file_path= f"{cwd}\\raw"
+raw_file_path= f"{dirPath}\\raw"
 
-pdfdata= PDFDataIngester(raw_file_path, "sentence-transformers/all-MiniLM-L6-v2")
+pdfdata= PDFDataIngester(dirPath, "sentence-transformers/all-MiniLM-L6-v2")
 pdfdata.LoadDocuments()
 pdfdata.init_splitter()
 pdfdata.create_chunks()
 pdfdata.create_vector_store()
 local_vec_Path=f"{cwd}\\index_data"
-pdfdata.store_vector_to_local()
+path = pdfdata.store_vector_to_local(local_vec_Path)
+print(path)
+
 
 
 

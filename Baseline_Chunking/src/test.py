@@ -10,7 +10,7 @@ import json
 load_dotenv()
 
 path=r"C:\repo\TechTrojan\AdvanceRAG\Baseline_Chunking\data\index_data\faiss_index_base_chunk_600"
-
+       
 dr = DataRetriever(path)
 
 
@@ -66,8 +66,8 @@ questions = [
 ]
  
 use_case={
-        'id' : 'UC:2',
-        'name' : 'Changed chunk size',
+        'id' : 'UC:1',
+        'name' : 'Base chunk size',
         'llm_model' : 'gpt-4o-mini',
         'embedding_model': 'sentence-transformers/all-MiniLM-L6-v2',
         'retriever': {
@@ -96,6 +96,8 @@ def save_list_to_file(data_list, filename):
 
 no=1    
 
+lEval = LLMEvaluator(rc.llm, dr.embeddings)
+
 if dr.LoadDatabase():
     for q in questions:
         question = q 
@@ -106,7 +108,7 @@ if dr.LoadDatabase():
         #print(ans.content)
         
     
-        lEval = LLMEvaluator(rc.llm, dr.embeddings)
+        
         ca_score = lEval.compute_context_adherence(question,context,ans.content)        
         
         

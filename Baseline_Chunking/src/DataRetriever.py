@@ -11,6 +11,7 @@ class DataRetriever:
     filePath : str = None 
     retriever :VectorStoreRetriever = None 
     docs:list[Document]= None 
+    all_docs:list[Document] = None 
     
     def __init__(self, index_filePath:str ):
         self.embeddings = HuggingFaceEmbeddings(model_name = self.emd_model)
@@ -23,7 +24,7 @@ class DataRetriever:
         return context
     
         
-    def LoadDatabase(self)-> bool : 
+    def     LoadDatabase(self)-> bool : 
         try:
             
             
@@ -35,9 +36,13 @@ class DataRetriever:
             
             self.retriever=  self.vec_store.as_retriever(search_type='similarity', search_kwargs={"k":5})
             
+            
             return True         
         except Exception as e:
             print(e)
             return False 
+    
+    def RetriveAllDocs(self)-> list[Document] :        
+        return  list(self.vec_store.docstore._dict.values())
 
             

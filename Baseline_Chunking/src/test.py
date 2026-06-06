@@ -96,6 +96,7 @@ if dr.LoadDatabase():
         question = q 
         print(f'evaluating : {question}')
         context = dr.retrieve_context(question)
+        context_list = dr.retrieve_context_list(question)
         ans = rc.generate_answer_with_context(question,context)
         
         #print(ans.content)
@@ -116,9 +117,9 @@ if dr.LoadDatabase():
         single_score= {
             'UseCase_id' : use_case_id ,
             'QNo' : no, 
-            'question' : question,
-            'context' : context,
-            'answer' : ans.content,
+            'user_input' : question,
+            'retrieved_contexts' : context_list,
+            'response' : ans.content,
             'context_adherence': "",
             'context_precision': "",
             'answer_relevance': "",

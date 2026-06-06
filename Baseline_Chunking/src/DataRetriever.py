@@ -24,6 +24,11 @@ class DataRetriever:
         context = ". ".join(context_list)
         return context
     
+    def retrieve_context_list(self,question)->list[str]:
+        self.docs = self.retriever.invoke(question)
+        context_list = [ d.page_content for d in self.docs ]
+         
+        return context_list
         
     def     LoadDatabase(self)-> bool : 
         try:

@@ -29,39 +29,32 @@ questions = [
 
     # ---------- NVIDIA (Numeric / Financial) ----------
 
-    "What was NVIDIA total revenue for fiscal year 2024?",
-    "What was NVIDIA Data Center revenue in fiscal year 2024?",
-    "How much operating income did NVIDIA report in fiscal year 2024?",
-    "What percentage of NVIDIA revenue came from customers headquartered outside the United States in fiscal year 2024?",
-    "What were NVIDIA total long-lived assets as of January 25, 2026?",
+"What are some best practices outlined in the AWS Well-Architected Framework for optimizing storage costs and performance?",
+"What were the net unrealized gains on investments in publicly-held equity securities for fiscal year 2025?",
+"What would be the impact on income before taxes if there was a 10% adverse foreign exchange rate change?",
+"What was the status of the commercial paper program as of January 25, 2026?",
+"What caused the decrease in the effective tax rate for fiscal year 2023?",
+"What are Money Market Funds in the context of eligible securities?",
+"What was the revenue from the United States on Jan 28, 2024?",
+"Can you tell me what SEC01-BP03 is and how it help in identify and validate control objectives in compliance?",
+"What is the significance of the Amended and Restated Directorsâ€™ Indemnification Trust Agreement involving Microsoft Corporation?",
+"How does Microsoft aim to address the evolving needs of customers through its technology solutions?",
+"What is GAAP in United States of America?",
+"What kind of things is the Federal National Mortgage Association involved with in terms of government securities?",
+"How productivity relate to property and equipment in the financial report?",
+"How did NVIDIA Corporation's revenue from specialized markets in 2026 contribute to overall productivity compared to the previous year?",
+"What are the ways to prevent incidents according to the AWS Well-Architected Framework, and how can we improve alerts to reduce time-to-detection by 50%?",
+"What is the role of the independent registered public accounting firm in relation to the consolidated financial statements of Microsoft Corporation?",
+"How does NVIDIA contribute to productivity in business processes?",
+"What were the earnings per share figures for the company in fiscal year 2025, and how did the company return value to shareholders through dividends during the same period?",
+"What are the successes and failures associated with Chaos Engineering, and how do they relate to the principles of resilience engineering?",
+"What was the Microsoft Cloud revenue in fiscal years 2025 compared to 2024?",
+"What Microsoft ethics code apply to finance people and how it relate to their tech solutions?",
+"How does the role of the Chief Financial Officer relate to the management's responsibility for internal control over financial reporting as specified in the SEC rules?",
+"What are the implications of our operations in Ireland regarding income tax audits and how do they relate to our international properties?",
+"What are the expected capital expenditures for fiscal year 2027 compared to fiscal year 2026, and how do these expenditures relate to the company's growth strategy?",
+"What are the anticipated changes in capital expenditures for fiscal year 2027 compared to fiscal year 2026, and how do these changes relate to the company's future growth strategy?"
 
-    # ---------- NVIDIA (Segment / Lease / Financial Detail) ----------
-
-    "What segments does NVIDIA report in its segment information?",
-    "What does NVIDIA include in its Compute & Networking segment?",
-    "How much depreciation expense did NVIDIA report in fiscal year 2024?",
-    "What are NVIDIA future operating lease obligations for fiscal year 2027?",
-    "How does NVIDIA define direct customers versus indirect customers?",
-
-    # ---------- Microsoft (Risk / Competition / Cloud) ----------
-
-    "What strategic and competitive risks does Microsoft disclose in its risk factors?",
-    "How does Microsoft describe competition in the technology sector?",
-    "What products are included in Microsoft Intelligent Cloud segment?",
-    "How is Azure revenue primarily generated?",
-    "What competitive advantages does Microsoft claim for Azure?",
-
-    # ---------- Microsoft (Product / AI / Services) ----------
-
-    "What services are included in Microsoft Enterprise and Partner Services?",
-    "How does Microsoft describe its Azure AI offerings?",
-    "What drives Dynamics revenue according to Microsoft?",
-    "What factors impact Windows OEM revenue?",
-
-    # ---------- AWS Well-Architected Framework ----------
-
-    "What are the six pillars of the AWS Well-Architected Framework?",
-    "What are the design principles of the Operational Excellence pillar?"
 
 ]
  
@@ -109,16 +102,16 @@ if dr.LoadDatabase():
         
     
         
-        ca_score = lEval.compute_context_adherence(question,context,ans.content)        
+        # ca_score = lEval.compute_context_adherence(question,context,ans.content)        
         
         
-        cp_score = lEval.compute_context_precision(question, dr.docs)
-        # print(cp_score)
+        # cp_score = lEval.compute_context_precision(question, dr.docs)
+        # # print(cp_score)
         
-        ans_rel = lEval.compute_answer_relevance(question, ans.content)
-        # print(ans_rel)
+        # ans_rel = lEval.compute_answer_relevance(question, ans.content)
+        # # print(ans_rel)
         
-        ground_score= lEval.compute_groundedness(context, ans.content)
+        # ground_score= lEval.compute_groundedness(context, ans.content)
         
         single_score= {
             'UseCase_id' : use_case_id ,
@@ -126,10 +119,10 @@ if dr.LoadDatabase():
             'question' : question,
             'context' : context,
             'answer' : ans.content,
-            'context_adherence': str(ca_score),
-            'context_precision': str(cp_score),
-            'answer_relevance': f"{ans_rel:.3f}",
-            'groundedness': ground_score
+            'context_adherence': "",
+            'context_precision': "",
+            'answer_relevance': "",
+            'groundedness': ""
         }
         
         
@@ -138,7 +131,7 @@ if dr.LoadDatabase():
         
 
 
-save_list_to_file(rag_scores,'regular_rag.json')
+save_list_to_file(rag_scores,'RAGAS_rag.json')
 
 
         

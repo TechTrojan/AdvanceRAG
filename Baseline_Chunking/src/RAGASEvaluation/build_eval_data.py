@@ -1,6 +1,8 @@
 import pandas as pd
 import json 
 from datasets import Dataset 
+import ast
+
 
 # #RAGAS dataset 
 # df_ragas = pd.read_csv("testset_3.csv", names=[ "user_input","reference_contexts","reference","persona_name","query_style","query_length","synthesizer_name"], 
@@ -26,15 +28,22 @@ from datasets import Dataset
 
 EVAL_DATA_SET="testset_3.CSV" 
 
-# Load CSV
-df = pd.read_csv(EVAL_DATA_SET)
+def LoadEvalData()->Dataset:
+    
+    
+    # Load CSV
+    df = pd.read_csv(EVAL_DATA_SET)
+    df["retrieved_contexts"] = df["retrieved_contexts"].apply(
+    lambda x: ast.literal_eval(x)
+)
 
-# Build Dataset expected by RAGAS
-eval_dataset = Dataset.from_dict({
-    "user_input": df["user_input"].tolist(),
-    "response": df["response"].tolist(),
-    "retrieved_contexts": df["retrieved_contexts"].tolist(),
-    "reference": df["reference"].tolist(),
-})
+    # Build Dataset expected by RAGAS
+    eval_dataset = Dataset.from_dict({
+        "user_input": df["user_input"].tolist(),
+        "response": df["response"].tolist(),
+        "retrieved_contexts": df["retrieved_contexts"].tolist(),
+        "reference": df["reference"].tolist(),
+    })
+    
+    return eval_dataset
 
-print(eval_dataset)

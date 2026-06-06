@@ -2,6 +2,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_core.vectorstores import VectorStoreRetriever
 from langchain_core.documents import Document
+from random import sample
 
 class DataRetriever:
     emd_model : str  = "sentence-transformers/all-MiniLM-L6-v2"
@@ -45,4 +46,11 @@ class DataRetriever:
     def RetriveAllDocs(self)-> list[Document] :        
         return  list(self.vec_store.docstore._dict.values())
 
-            
+
+    def RetriveRandomDocs(self, count: int) -> list[Document]:
+        docs = list(self.vec_store.docstore._dict.values())
+
+        if count >= len(docs):
+            return docs
+
+        return sample(docs, count)            
